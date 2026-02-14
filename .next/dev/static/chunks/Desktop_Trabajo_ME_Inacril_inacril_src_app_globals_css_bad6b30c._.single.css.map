@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/Desktop/Trabajo/ME/Inacril/inacril/src/app/globals.css"],"sourcesContent":[":root {\n  --background: #0a0a0a;\n  --foreground: #ffffff;\n}\n\nbody {\n  color: var(--foreground);\n  background: var(--background);\n  min-height: 100vh;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n}\n\n* {\n  box-sizing: border-box;\n  padding: 0;\n  margin: 0;\n}\n\na {\n  color: inherit;\n  text-decoration: none;\n}\n\n/* Swiper Pagination Custom Styles */\n.swiper-pagination {\n  bottom: 40px !important;\n}\n.swiper-pagination-bullet {\n  opacity: 0.6 !important;\n  background-color: white !important;\n  width: 14px !important;\n  height: 14px !important;\n  border-radius: 2px !important; /* Square shape */\n  margin: 0 6px !important;\n  transition: all 0.3s ease;\n}\n.swiper-pagination-bullet-active {\n  opacity: 1 !important;\n}\n\n/* Custom transitions */\n.nav-link-underline {\n  transition: transform 0.3s ease;\n}\n\n.nav-link-group:hover .nav-link-underline {\n  transform: scaleX(1);\n}\n"],"names":[],"mappings":"AAAA;;;;;AAKA;;;;;;;;AAQA;;;;;;AAMA;;;;;AAMA;;;;AAGA;;;;;;;;;;AASA;;;;AAKA;;;;AAIA"}}]
+}
