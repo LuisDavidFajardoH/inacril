@@ -2661,3 +2661,4 @@ https://react.dev/link/hydration-mismatch
 [01:38:23.106] Server  LOG     ✓ Compiled in 183ms
 [01:38:52.337] Server  LOG     ✓ Compiled in 176ms
 [01:39:20.611] Server  LOG     ✓ Compiled in 130ms
+[01:39:45.277] Browser WARN    'whiteAlpha.400' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable
