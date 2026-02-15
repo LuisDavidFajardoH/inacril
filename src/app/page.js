@@ -8,6 +8,8 @@ import { ServiceGrid } from "@/components/ServiceGrid"
 import { CategoryCarousel } from "@/components/CategoryCarousel"
 import { SolutionsSection } from "@/components/SolutionsSection"
 import { ProjectHighlight } from "@/components/ProjectHighlight"
+import { ProjectForm } from "@/components/ProjectForm"
+import { Footer } from "@/components/Footer"
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Autoplay, Pagination, EffectFade } from 'swiper/modules'
 
@@ -155,6 +157,9 @@ export default function Home() {
       {/* Project Highlight Section */}
       <ProjectHighlight />
 
+      {/* Project Form Section */}
+      <ProjectForm />
+
       {/* Solutions Section */}
       <SolutionsSection />
 
@@ -218,21 +223,7 @@ export default function Home() {
         </Container>
       </Box>
 
-      {/* Final CTA Section */}
-      <Box bg="#0a0a0a" py={20} borderTop="1px solid" borderColor="whiteAlpha.100">
-        <Container maxW="8xl" px={8}>
-          <Flex justify="space-between" align="center" direction={{ base: "column", md: "row" }} gap={8}>
-            <Heading color="whiteAlpha.400" fontSize="2xl" fontWeight="300" letterSpacing="widest">
-              LIDERANDO CON <Text as="span" color="whiteAlpha.800">CLARIDAD Y RESISTENCIA</Text>
-            </Heading>
-            <HStack gap={8}>
-              <Link color="whiteAlpha.600" fontSize="sm" _hover={{ color: "cyan.400" }}>Instagram</Link>
-              <Link color="whiteAlpha.600" fontSize="sm" _hover={{ color: "cyan.400" }}>LinkedIn</Link>
-              <Link color="whiteAlpha.600" fontSize="sm" _hover={{ color: "cyan.400" }}>Contacto</Link>
-            </HStack>
-          </Flex>
-        </Container>
-      </Box>
+      <Footer />
 
     </Box>
   )

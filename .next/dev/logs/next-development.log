@@ -462,3 +462,2202 @@ Import traces:
 [01:21:36.178] Browser WARN    'whiteAlpha.400' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable
 [01:21:37.242] Browser WARN    'whiteAlpha.400' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable
 [01:21:41.577] Browser WARN    'whiteAlpha.400' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable
+[01:25:25.030] Server  LOG     ✓ Compiled in 2.3s
+[01:25:25.916] Browser ERROR   ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx:4:1
+Export FormControl doesn't exist in target module
+   2 |
+   3 | import React from 'react'
+>  4 | import { 
+     | ^^^^^^^^^
+>  5 |   Box, 
+     | ^^^^^^^
+>  6 |   Container, 
+     | ^^^^^^^
+>  7 |   Heading, 
+     | ^^^^^^^
+>  8 |   Text, 
+     | ^^^^^^^
+>  9 |   VStack, 
+     | ^^^^^^^
+> 10 |   Flex, 
+     | ^^^^^^^
+> 11 |   Input, 
+     | ^^^^^^^
+> 12 |   Textarea, 
+     | ^^^^^^^
+> 13 |   Button, 
+     | ^^^^^^^
+> 14 |   SimpleGrid,
+     | ^^^^^^^
+> 15 |   FormControl,
+     | ^^^^^^^
+> 16 |   FormLabel,
+     | ^^^^^^^
+> 17 |   Image,
+     | ^^^^^^^
+> 18 |   HStack
+     | ^^^^^^^
+> 19 | } from '@chakra-ui/react'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  20 | import { motion } from 'framer-motion'
+  21 | import { Send, Phone, Mail, MapPin } from 'lucide-react'
+  22 |
+
+The export FormControl was not found in module [project]/Desktop/Trabajo/ME/Inacril/inacril/node_modules/@chakra-ui/react/dist/esm/index.js [app-client] (ecmascript).
+Did you mean to import SliderControl?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx [Client Component Browser]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Client Component Browser]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx [Client Component SSR]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Client Component SSR]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Server Component]
+[01:25:25.916] Browser ERROR   ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx:4:1
+Export FormControl doesn't exist in target module
+   2 |
+   3 | import React from 'react'
+>  4 | import { 
+     | ^^^^^^^^^
+>  5 |   Box, 
+     | ^^^^^^^
+>  6 |   Container, 
+     | ^^^^^^^
+>  7 |   Heading, 
+     | ^^^^^^^
+>  8 |   Text, 
+     | ^^^^^^^
+>  9 |   VStack, 
+     | ^^^^^^^
+> 10 |   Flex, 
+     | ^^^^^^^
+> 11 |   Input, 
+     | ^^^^^^^
+> 12 |   Textarea, 
+     | ^^^^^^^
+> 13 |   Button, 
+     | ^^^^^^^
+> 14 |   SimpleGrid,
+     | ^^^^^^^
+> 15 |   FormControl,
+     | ^^^^^^^
+> 16 |   FormLabel,
+     | ^^^^^^^
+> 17 |   Image,
+     | ^^^^^^^
+> 18 |   HStack
+     | ^^^^^^^
+> 19 | } from '@chakra-ui/react'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  20 | import { motion } from 'framer-motion'
+  21 | import { Send, Phone, Mail, MapPin } from 'lucide-react'
+  22 |
+
+The export FormControl was not found in module [project]/Desktop/Trabajo/ME/Inacril/inacril/node_modules/@chakra-ui/react/dist/esm/index.js [app-ssr] (ecmascript).
+Did you mean to import SliderControl?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx [Client Component Browser]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Client Component Browser]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx [Client Component SSR]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Client Component SSR]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Server Component]
+[01:25:25.916] Browser ERROR   ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx:4:1
+Export FormLabel doesn't exist in target module
+   2 |
+   3 | import React from 'react'
+>  4 | import { 
+     | ^^^^^^^^^
+>  5 |   Box, 
+     | ^^^^^^^
+>  6 |   Container, 
+     | ^^^^^^^
+>  7 |   Heading, 
+     | ^^^^^^^
+>  8 |   Text, 
+     | ^^^^^^^
+>  9 |   VStack, 
+     | ^^^^^^^
+> 10 |   Flex, 
+     | ^^^^^^^
+> 11 |   Input, 
+     | ^^^^^^^
+> 12 |   Textarea, 
+     | ^^^^^^^
+> 13 |   Button, 
+     | ^^^^^^^
+> 14 |   SimpleGrid,
+     | ^^^^^^^
+> 15 |   FormControl,
+     | ^^^^^^^
+> 16 |   FormLabel,
+     | ^^^^^^^
+> 17 |   Image,
+     | ^^^^^^^
+> 18 |   HStack
+     | ^^^^^^^
+> 19 | } from '@chakra-ui/react'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  20 | import { motion } from 'framer-motion'
+  21 | import { Send, Phone, Mail, MapPin } from 'lucide-react'
+  22 |
+
+The export FormLabel was not found in module [project]/Desktop/Trabajo/ME/Inacril/inacril/node_modules/@chakra-ui/react/dist/esm/index.js [app-client] (ecmascript).
+Did you mean to import FormatNumber?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx [Client Component Browser]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Client Component Browser]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx [Client Component SSR]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Client Component SSR]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Server Component]
+[01:25:25.916] Browser ERROR   ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx:4:1
+Export FormLabel doesn't exist in target module
+   2 |
+   3 | import React from 'react'
+>  4 | import { 
+     | ^^^^^^^^^
+>  5 |   Box, 
+     | ^^^^^^^
+>  6 |   Container, 
+     | ^^^^^^^
+>  7 |   Heading, 
+     | ^^^^^^^
+>  8 |   Text, 
+     | ^^^^^^^
+>  9 |   VStack, 
+     | ^^^^^^^
+> 10 |   Flex, 
+     | ^^^^^^^
+> 11 |   Input, 
+     | ^^^^^^^
+> 12 |   Textarea, 
+     | ^^^^^^^
+> 13 |   Button, 
+     | ^^^^^^^
+> 14 |   SimpleGrid,
+     | ^^^^^^^
+> 15 |   FormControl,
+     | ^^^^^^^
+> 16 |   FormLabel,
+     | ^^^^^^^
+> 17 |   Image,
+     | ^^^^^^^
+> 18 |   HStack
+     | ^^^^^^^
+> 19 | } from '@chakra-ui/react'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  20 | import { motion } from 'framer-motion'
+  21 | import { Send, Phone, Mail, MapPin } from 'lucide-react'
+  22 |
+
+The export FormLabel was not found in module [project]/Desktop/Trabajo/ME/Inacril/inacril/node_modules/@chakra-ui/react/dist/esm/index.js [app-ssr] (ecmascript).
+Did you mean to import FormatNumber?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx [Client Component Browser]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Client Component Browser]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx [Client Component SSR]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Client Component SSR]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Server Component]
+[01:26:17.924] Server  LOG     ✓ Compiled in 86ms
+[01:26:18.916] Browser ERROR   ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx:4:1
+Export FormControl doesn't exist in target module
+   2 |
+   3 | import React from 'react'
+>  4 | import { 
+     | ^^^^^^^^^
+>  5 |   Box, 
+     | ^^^^^^^
+>  6 |   Container, 
+     | ^^^^^^^
+>  7 |   Heading, 
+     | ^^^^^^^
+>  8 |   Text, 
+     | ^^^^^^^
+>  9 |   VStack, 
+     | ^^^^^^^
+> 10 |   Flex, 
+     | ^^^^^^^
+> 11 |   Input, 
+     | ^^^^^^^
+> 12 |   Textarea, 
+     | ^^^^^^^
+> 13 |   Button, 
+     | ^^^^^^^
+> 14 |   SimpleGrid,
+     | ^^^^^^^
+> 15 |   FormControl,
+     | ^^^^^^^
+> 16 |   FormLabel,
+     | ^^^^^^^
+> 17 |   Image,
+     | ^^^^^^^
+> 18 |   HStack
+     | ^^^^^^^
+> 19 | } from '@chakra-ui/react'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  20 | import { motion } from 'framer-motion'
+  21 | import { Send, Phone, Mail, MapPin } from 'lucide-react'
+  22 |
+
+The export FormControl was not found in module [project]/Desktop/Trabajo/ME/Inacril/inacril/node_modules/@chakra-ui/react/dist/esm/index.js [app-client] (ecmascript).
+Did you mean to import SliderControl?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx [Client Component Browser]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Client Component Browser]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx [Client Component SSR]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Client Component SSR]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Server Component]
+[01:26:18.916] Browser ERROR   ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx:4:1
+Export FormControl doesn't exist in target module
+   2 |
+   3 | import React from 'react'
+>  4 | import { 
+     | ^^^^^^^^^
+>  5 |   Box, 
+     | ^^^^^^^
+>  6 |   Container, 
+     | ^^^^^^^
+>  7 |   Heading, 
+     | ^^^^^^^
+>  8 |   Text, 
+     | ^^^^^^^
+>  9 |   VStack, 
+     | ^^^^^^^
+> 10 |   Flex, 
+     | ^^^^^^^
+> 11 |   Input, 
+     | ^^^^^^^
+> 12 |   Textarea, 
+     | ^^^^^^^
+> 13 |   Button, 
+     | ^^^^^^^
+> 14 |   SimpleGrid,
+     | ^^^^^^^
+> 15 |   FormControl,
+     | ^^^^^^^
+> 16 |   FormLabel,
+     | ^^^^^^^
+> 17 |   Image,
+     | ^^^^^^^
+> 18 |   HStack
+     | ^^^^^^^
+> 19 | } from '@chakra-ui/react'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  20 | import { motion } from 'framer-motion'
+  21 | import { Send, Phone, Mail, MapPin } from 'lucide-react'
+  22 |
+
+The export FormControl was not found in module [project]/Desktop/Trabajo/ME/Inacril/inacril/node_modules/@chakra-ui/react/dist/esm/index.js [app-ssr] (ecmascript).
+Did you mean to import SliderControl?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx [Client Component Browser]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Client Component Browser]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx [Client Component SSR]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Client Component SSR]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Server Component]
+[01:26:18.916] Browser ERROR   ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx:4:1
+Export FormLabel doesn't exist in target module
+   2 |
+   3 | import React from 'react'
+>  4 | import { 
+     | ^^^^^^^^^
+>  5 |   Box, 
+     | ^^^^^^^
+>  6 |   Container, 
+     | ^^^^^^^
+>  7 |   Heading, 
+     | ^^^^^^^
+>  8 |   Text, 
+     | ^^^^^^^
+>  9 |   VStack, 
+     | ^^^^^^^
+> 10 |   Flex, 
+     | ^^^^^^^
+> 11 |   Input, 
+     | ^^^^^^^
+> 12 |   Textarea, 
+     | ^^^^^^^
+> 13 |   Button, 
+     | ^^^^^^^
+> 14 |   SimpleGrid,
+     | ^^^^^^^
+> 15 |   FormControl,
+     | ^^^^^^^
+> 16 |   FormLabel,
+     | ^^^^^^^
+> 17 |   Image,
+     | ^^^^^^^
+> 18 |   HStack
+     | ^^^^^^^
+> 19 | } from '@chakra-ui/react'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  20 | import { motion } from 'framer-motion'
+  21 | import { Send, Phone, Mail, MapPin } from 'lucide-react'
+  22 |
+
+The export FormLabel was not found in module [project]/Desktop/Trabajo/ME/Inacril/inacril/node_modules/@chakra-ui/react/dist/esm/index.js [app-client] (ecmascript).
+Did you mean to import FormatNumber?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx [Client Component Browser]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Client Component Browser]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx [Client Component SSR]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Client Component SSR]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Server Component]
+[01:26:18.916] Browser ERROR   ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx:4:1
+Export FormLabel doesn't exist in target module
+   2 |
+   3 | import React from 'react'
+>  4 | import { 
+     | ^^^^^^^^^
+>  5 |   Box, 
+     | ^^^^^^^
+>  6 |   Container, 
+     | ^^^^^^^
+>  7 |   Heading, 
+     | ^^^^^^^
+>  8 |   Text, 
+     | ^^^^^^^
+>  9 |   VStack, 
+     | ^^^^^^^
+> 10 |   Flex, 
+     | ^^^^^^^
+> 11 |   Input, 
+     | ^^^^^^^
+> 12 |   Textarea, 
+     | ^^^^^^^
+> 13 |   Button, 
+     | ^^^^^^^
+> 14 |   SimpleGrid,
+     | ^^^^^^^
+> 15 |   FormControl,
+     | ^^^^^^^
+> 16 |   FormLabel,
+     | ^^^^^^^
+> 17 |   Image,
+     | ^^^^^^^
+> 18 |   HStack
+     | ^^^^^^^
+> 19 | } from '@chakra-ui/react'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  20 | import { motion } from 'framer-motion'
+  21 | import { Send, Phone, Mail, MapPin } from 'lucide-react'
+  22 |
+
+The export FormLabel was not found in module [project]/Desktop/Trabajo/ME/Inacril/inacril/node_modules/@chakra-ui/react/dist/esm/index.js [app-ssr] (ecmascript).
+Did you mean to import FormatNumber?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx [Client Component Browser]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Client Component Browser]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx [Client Component SSR]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Client Component SSR]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Server Component]
+[01:27:13.957] Server  ERROR   ⨯ ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx:4:1
+Export FormControl doesn't exist in target module
+   2 |
+   3 | import React from 'react'
+>  4 | import { 
+     | ^^^^^^^^^
+>  5 |   Box, 
+     | ^^^^^^^
+>  6 |   Container, 
+     | ^^^^^^^
+>  7 |   Heading, 
+     | ^^^^^^^
+>  8 |   Text, 
+     | ^^^^^^^
+>  9 |   VStack, 
+     | ^^^^^^^
+> 10 |   Flex, 
+     | ^^^^^^^
+> 11 |   Input, 
+     | ^^^^^^^
+> 12 |   Textarea, 
+     | ^^^^^^^
+> 13 |   Button, 
+     | ^^^^^^^
+> 14 |   SimpleGrid,
+     | ^^^^^^^
+> 15 |   FormControl,
+     | ^^^^^^^
+> 16 |   FormLabel,
+     | ^^^^^^^
+> 17 |   Image,
+     | ^^^^^^^
+> 18 |   HStack
+     | ^^^^^^^
+> 19 | } from '@chakra-ui/react'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  20 | import { motion } from 'framer-motion'
+  21 | import { Send, Phone, Mail, MapPin } from 'lucide-react'
+  22 |
+
+The export FormControl was not found in module [project]/Desktop/Trabajo/ME/Inacril/inacril/node_modules/@chakra-ui/react/dist/esm/index.js [app-client] (ecmascript).
+Did you mean to import SliderControl?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx [Client Component Browser]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Client Component Browser]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx [Client Component SSR]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Client Component SSR]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Server Component]
+
+
+
+./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx:4:1
+Export FormControl doesn't exist in target module
+   2 |
+   3 | import React from 'react'
+>  4 | import { 
+     | ^^^^^^^^^
+>  5 |   Box, 
+     | ^^^^^^^
+>  6 |   Container, 
+     | ^^^^^^^
+>  7 |   Heading, 
+     | ^^^^^^^
+>  8 |   Text, 
+     | ^^^^^^^
+>  9 |   VStack, 
+     | ^^^^^^^
+> 10 |   Flex, 
+     | ^^^^^^^
+> 11 |   Input, 
+     | ^^^^^^^
+> 12 |   Textarea, 
+     | ^^^^^^^
+> 13 |   Button, 
+     | ^^^^^^^
+> 14 |   SimpleGrid,
+     | ^^^^^^^
+> 15 |   FormControl,
+     | ^^^^^^^
+> 16 |   FormLabel,
+     | ^^^^^^^
+> 17 |   Image,
+     | ^^^^^^^
+> 18 |   HStack
+     | ^^^^^^^
+> 19 | } from '@chakra-ui/react'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  20 | import { motion } from 'framer-motion'
+  21 | import { Send, Phone, Mail, MapPin } from 'lucide-react'
+  22 |
+
+The export FormControl was not found in module [project]/Desktop/Trabajo/ME/Inacril/inacril/node_modules/@chakra-ui/react/dist/esm/index.js [app-ssr] (ecmascript).
+Did you mean to import SliderControl?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx [Client Component Browser]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Client Component Browser]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx [Client Component SSR]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Client Component SSR]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Server Component]
+
+
+
+./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx:4:1
+Export FormLabel doesn't exist in target module
+   2 |
+   3 | import React from 'react'
+>  4 | import { 
+     | ^^^^^^^^^
+>  5 |   Box, 
+     | ^^^^^^^
+>  6 |   Container, 
+     | ^^^^^^^
+>  7 |   Heading, 
+     | ^^^^^^^
+>  8 |   Text, 
+     | ^^^^^^^
+>  9 |   VStack, 
+     | ^^^^^^^
+> 10 |   Flex, 
+     | ^^^^^^^
+> 11 |   Input, 
+     | ^^^^^^^
+> 12 |   Textarea, 
+     | ^^^^^^^
+> 13 |   Button, 
+     | ^^^^^^^
+> 14 |   SimpleGrid,
+     | ^^^^^^^
+> 15 |   FormControl,
+     | ^^^^^^^
+> 16 |   FormLabel,
+     | ^^^^^^^
+> 17 |   Image,
+     | ^^^^^^^
+> 18 |   HStack
+     | ^^^^^^^
+> 19 | } from '@chakra-ui/react'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  20 | import { motion } from 'framer-motion'
+  21 | import { Send, Phone, Mail, MapPin } from 'lucide-react'
+  22 |
+
+The export FormLabel was not found in module [project]/Desktop/Trabajo/ME/Inacril/inacril/node_modules/@chakra-ui/react/dist/esm/index.js [app-client] (ecmascript).
+Did you mean to import FormatNumber?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx [Client Component Browser]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Client Component Browser]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx [Client Component SSR]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Client Component SSR]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Server Component]
+
+
+
+./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx:4:1
+Export FormLabel doesn't exist in target module
+   2 |
+   3 | import React from 'react'
+>  4 | import { 
+     | ^^^^^^^^^
+>  5 |   Box, 
+     | ^^^^^^^
+>  6 |   Container, 
+     | ^^^^^^^
+>  7 |   Heading, 
+     | ^^^^^^^
+>  8 |   Text, 
+     | ^^^^^^^
+>  9 |   VStack, 
+     | ^^^^^^^
+> 10 |   Flex, 
+     | ^^^^^^^
+> 11 |   Input, 
+     | ^^^^^^^
+> 12 |   Textarea, 
+     | ^^^^^^^
+> 13 |   Button, 
+     | ^^^^^^^
+> 14 |   SimpleGrid,
+     | ^^^^^^^
+> 15 |   FormControl,
+     | ^^^^^^^
+> 16 |   FormLabel,
+     | ^^^^^^^
+> 17 |   Image,
+     | ^^^^^^^
+> 18 |   HStack
+     | ^^^^^^^
+> 19 | } from '@chakra-ui/react'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  20 | import { motion } from 'framer-motion'
+  21 | import { Send, Phone, Mail, MapPin } from 'lucide-react'
+  22 |
+
+The export FormLabel was not found in module [project]/Desktop/Trabajo/ME/Inacril/inacril/node_modules/@chakra-ui/react/dist/esm/index.js [app-ssr] (ecmascript).
+Did you mean to import FormatNumber?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx [Client Component Browser]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Client Component Browser]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx [Client Component SSR]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Client Component SSR]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Server Component]
+
+
+[01:27:14.091] Browser ERROR   ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx:4:1
+Export FormControl doesn't exist in target module
+   2 |
+   3 | import React from 'react'
+>  4 | import { 
+     | ^^^^^^^^^
+>  5 |   Box, 
+     | ^^^^^^^
+>  6 |   Container, 
+     | ^^^^^^^
+>  7 |   Heading, 
+     | ^^^^^^^
+>  8 |   Text, 
+     | ^^^^^^^
+>  9 |   VStack, 
+     | ^^^^^^^
+> 10 |   Flex, 
+     | ^^^^^^^
+> 11 |   Input, 
+     | ^^^^^^^
+> 12 |   Textarea, 
+     | ^^^^^^^
+> 13 |   Button, 
+     | ^^^^^^^
+> 14 |   SimpleGrid,
+     | ^^^^^^^
+> 15 |   FormControl,
+     | ^^^^^^^
+> 16 |   FormLabel,
+     | ^^^^^^^
+> 17 |   Image,
+     | ^^^^^^^
+> 18 |   HStack
+     | ^^^^^^^
+> 19 | } from '@chakra-ui/react'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  20 | import { motion } from 'framer-motion'
+  21 | import { Send, Phone, Mail, MapPin } from 'lucide-react'
+  22 |
+
+The export FormControl was not found in module [project]/Desktop/Trabajo/ME/Inacril/inacril/node_modules/@chakra-ui/react/dist/esm/index.js [app-client] (ecmascript).
+Did you mean to import SliderControl?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx [Client Component Browser]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Client Component Browser]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx [Client Component SSR]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Client Component SSR]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Server Component]
+[01:27:14.091] Browser ERROR   ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx:4:1
+Export FormControl doesn't exist in target module
+   2 |
+   3 | import React from 'react'
+>  4 | import { 
+     | ^^^^^^^^^
+>  5 |   Box, 
+     | ^^^^^^^
+>  6 |   Container, 
+     | ^^^^^^^
+>  7 |   Heading, 
+     | ^^^^^^^
+>  8 |   Text, 
+     | ^^^^^^^
+>  9 |   VStack, 
+     | ^^^^^^^
+> 10 |   Flex, 
+     | ^^^^^^^
+> 11 |   Input, 
+     | ^^^^^^^
+> 12 |   Textarea, 
+     | ^^^^^^^
+> 13 |   Button, 
+     | ^^^^^^^
+> 14 |   SimpleGrid,
+     | ^^^^^^^
+> 15 |   FormControl,
+     | ^^^^^^^
+> 16 |   FormLabel,
+     | ^^^^^^^
+> 17 |   Image,
+     | ^^^^^^^
+> 18 |   HStack
+     | ^^^^^^^
+> 19 | } from '@chakra-ui/react'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  20 | import { motion } from 'framer-motion'
+  21 | import { Send, Phone, Mail, MapPin } from 'lucide-react'
+  22 |
+
+The export FormControl was not found in module [project]/Desktop/Trabajo/ME/Inacril/inacril/node_modules/@chakra-ui/react/dist/esm/index.js [app-ssr] (ecmascript).
+Did you mean to import SliderControl?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx [Client Component Browser]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Client Component Browser]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx [Client Component SSR]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Client Component SSR]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Server Component]
+[01:27:14.091] Browser ERROR   ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx:4:1
+Export FormLabel doesn't exist in target module
+   2 |
+   3 | import React from 'react'
+>  4 | import { 
+     | ^^^^^^^^^
+>  5 |   Box, 
+     | ^^^^^^^
+>  6 |   Container, 
+     | ^^^^^^^
+>  7 |   Heading, 
+     | ^^^^^^^
+>  8 |   Text, 
+     | ^^^^^^^
+>  9 |   VStack, 
+     | ^^^^^^^
+> 10 |   Flex, 
+     | ^^^^^^^
+> 11 |   Input, 
+     | ^^^^^^^
+> 12 |   Textarea, 
+     | ^^^^^^^
+> 13 |   Button, 
+     | ^^^^^^^
+> 14 |   SimpleGrid,
+     | ^^^^^^^
+> 15 |   FormControl,
+     | ^^^^^^^
+> 16 |   FormLabel,
+     | ^^^^^^^
+> 17 |   Image,
+     | ^^^^^^^
+> 18 |   HStack
+     | ^^^^^^^
+> 19 | } from '@chakra-ui/react'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  20 | import { motion } from 'framer-motion'
+  21 | import { Send, Phone, Mail, MapPin } from 'lucide-react'
+  22 |
+
+The export FormLabel was not found in module [project]/Desktop/Trabajo/ME/Inacril/inacril/node_modules/@chakra-ui/react/dist/esm/index.js [app-client] (ecmascript).
+Did you mean to import FormatNumber?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx [Client Component Browser]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Client Component Browser]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx [Client Component SSR]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Client Component SSR]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Server Component]
+[01:27:14.091] Browser ERROR   ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx:4:1
+Export FormLabel doesn't exist in target module
+   2 |
+   3 | import React from 'react'
+>  4 | import { 
+     | ^^^^^^^^^
+>  5 |   Box, 
+     | ^^^^^^^
+>  6 |   Container, 
+     | ^^^^^^^
+>  7 |   Heading, 
+     | ^^^^^^^
+>  8 |   Text, 
+     | ^^^^^^^
+>  9 |   VStack, 
+     | ^^^^^^^
+> 10 |   Flex, 
+     | ^^^^^^^
+> 11 |   Input, 
+     | ^^^^^^^
+> 12 |   Textarea, 
+     | ^^^^^^^
+> 13 |   Button, 
+     | ^^^^^^^
+> 14 |   SimpleGrid,
+     | ^^^^^^^
+> 15 |   FormControl,
+     | ^^^^^^^
+> 16 |   FormLabel,
+     | ^^^^^^^
+> 17 |   Image,
+     | ^^^^^^^
+> 18 |   HStack
+     | ^^^^^^^
+> 19 | } from '@chakra-ui/react'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  20 | import { motion } from 'framer-motion'
+  21 | import { Send, Phone, Mail, MapPin } from 'lucide-react'
+  22 |
+
+The export FormLabel was not found in module [project]/Desktop/Trabajo/ME/Inacril/inacril/node_modules/@chakra-ui/react/dist/esm/index.js [app-ssr] (ecmascript).
+Did you mean to import FormatNumber?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx [Client Component Browser]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Client Component Browser]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx [Client Component SSR]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Client Component SSR]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Server Component]
+[01:27:14.410] Browser ERROR   ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx:4:1
+Export FormControl doesn't exist in target module
+   2 |
+   3 | import React from 'react'
+>  4 | import { 
+     | ^^^^^^^^^
+>  5 |   Box, 
+     | ^^^^^^^
+>  6 |   Container, 
+     | ^^^^^^^
+>  7 |   Heading, 
+     | ^^^^^^^
+>  8 |   Text, 
+     | ^^^^^^^
+>  9 |   VStack, 
+     | ^^^^^^^
+> 10 |   Flex, 
+     | ^^^^^^^
+> 11 |   Input, 
+     | ^^^^^^^
+> 12 |   Textarea, 
+     | ^^^^^^^
+> 13 |   Button, 
+     | ^^^^^^^
+> 14 |   SimpleGrid,
+     | ^^^^^^^
+> 15 |   FormControl,
+     | ^^^^^^^
+> 16 |   FormLabel,
+     | ^^^^^^^
+> 17 |   Image,
+     | ^^^^^^^
+> 18 |   HStack
+     | ^^^^^^^
+> 19 | } from '@chakra-ui/react'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  20 | import { motion } from 'framer-motion'
+  21 | import { Send, Phone, Mail, MapPin } from 'lucide-react'
+  22 |
+
+The export FormControl was not found in module [project]/Desktop/Trabajo/ME/Inacril/inacril/node_modules/@chakra-ui/react/dist/esm/index.js [app-client] (ecmascript).
+Did you mean to import SliderControl?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx [Client Component Browser]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Client Component Browser]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx [Client Component SSR]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Client Component SSR]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Server Component]
+[01:27:14.410] Browser ERROR   ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx:4:1
+Export FormControl doesn't exist in target module
+   2 |
+   3 | import React from 'react'
+>  4 | import { 
+     | ^^^^^^^^^
+>  5 |   Box, 
+     | ^^^^^^^
+>  6 |   Container, 
+     | ^^^^^^^
+>  7 |   Heading, 
+     | ^^^^^^^
+>  8 |   Text, 
+     | ^^^^^^^
+>  9 |   VStack, 
+     | ^^^^^^^
+> 10 |   Flex, 
+     | ^^^^^^^
+> 11 |   Input, 
+     | ^^^^^^^
+> 12 |   Textarea, 
+     | ^^^^^^^
+> 13 |   Button, 
+     | ^^^^^^^
+> 14 |   SimpleGrid,
+     | ^^^^^^^
+> 15 |   FormControl,
+     | ^^^^^^^
+> 16 |   FormLabel,
+     | ^^^^^^^
+> 17 |   Image,
+     | ^^^^^^^
+> 18 |   HStack
+     | ^^^^^^^
+> 19 | } from '@chakra-ui/react'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  20 | import { motion } from 'framer-motion'
+  21 | import { Send, Phone, Mail, MapPin } from 'lucide-react'
+  22 |
+
+The export FormControl was not found in module [project]/Desktop/Trabajo/ME/Inacril/inacril/node_modules/@chakra-ui/react/dist/esm/index.js [app-ssr] (ecmascript).
+Did you mean to import SliderControl?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx [Client Component Browser]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Client Component Browser]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx [Client Component SSR]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Client Component SSR]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Server Component]
+[01:27:14.410] Browser ERROR   ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx:4:1
+Export FormLabel doesn't exist in target module
+   2 |
+   3 | import React from 'react'
+>  4 | import { 
+     | ^^^^^^^^^
+>  5 |   Box, 
+     | ^^^^^^^
+>  6 |   Container, 
+     | ^^^^^^^
+>  7 |   Heading, 
+     | ^^^^^^^
+>  8 |   Text, 
+     | ^^^^^^^
+>  9 |   VStack, 
+     | ^^^^^^^
+> 10 |   Flex, 
+     | ^^^^^^^
+> 11 |   Input, 
+     | ^^^^^^^
+> 12 |   Textarea, 
+     | ^^^^^^^
+> 13 |   Button, 
+     | ^^^^^^^
+> 14 |   SimpleGrid,
+     | ^^^^^^^
+> 15 |   FormControl,
+     | ^^^^^^^
+> 16 |   FormLabel,
+     | ^^^^^^^
+> 17 |   Image,
+     | ^^^^^^^
+> 18 |   HStack
+     | ^^^^^^^
+> 19 | } from '@chakra-ui/react'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  20 | import { motion } from 'framer-motion'
+  21 | import { Send, Phone, Mail, MapPin } from 'lucide-react'
+  22 |
+
+The export FormLabel was not found in module [project]/Desktop/Trabajo/ME/Inacril/inacril/node_modules/@chakra-ui/react/dist/esm/index.js [app-client] (ecmascript).
+Did you mean to import FormatNumber?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx [Client Component Browser]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Client Component Browser]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx [Client Component SSR]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Client Component SSR]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Server Component]
+[01:27:14.410] Browser ERROR   ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx:4:1
+Export FormLabel doesn't exist in target module
+   2 |
+   3 | import React from 'react'
+>  4 | import { 
+     | ^^^^^^^^^
+>  5 |   Box, 
+     | ^^^^^^^
+>  6 |   Container, 
+     | ^^^^^^^
+>  7 |   Heading, 
+     | ^^^^^^^
+>  8 |   Text, 
+     | ^^^^^^^
+>  9 |   VStack, 
+     | ^^^^^^^
+> 10 |   Flex, 
+     | ^^^^^^^
+> 11 |   Input, 
+     | ^^^^^^^
+> 12 |   Textarea, 
+     | ^^^^^^^
+> 13 |   Button, 
+     | ^^^^^^^
+> 14 |   SimpleGrid,
+     | ^^^^^^^
+> 15 |   FormControl,
+     | ^^^^^^^
+> 16 |   FormLabel,
+     | ^^^^^^^
+> 17 |   Image,
+     | ^^^^^^^
+> 18 |   HStack
+     | ^^^^^^^
+> 19 | } from '@chakra-ui/react'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  20 | import { motion } from 'framer-motion'
+  21 | import { Send, Phone, Mail, MapPin } from 'lucide-react'
+  22 |
+
+The export FormLabel was not found in module [project]/Desktop/Trabajo/ME/Inacril/inacril/node_modules/@chakra-ui/react/dist/esm/index.js [app-ssr] (ecmascript).
+Did you mean to import FormatNumber?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx [Client Component Browser]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Client Component Browser]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx [Client Component SSR]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Client Component SSR]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Server Component]
+[01:27:14.539] Browser ERROR   ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx:4:1
+Export FormControl doesn't exist in target module
+   2 |
+   3 | import React from 'react'
+>  4 | import { 
+     | ^^^^^^^^^
+>  5 |   Box, 
+     | ^^^^^^^
+>  6 |   Container, 
+     | ^^^^^^^
+>  7 |   Heading, 
+     | ^^^^^^^
+>  8 |   Text, 
+     | ^^^^^^^
+>  9 |   VStack, 
+     | ^^^^^^^
+> 10 |   Flex, 
+     | ^^^^^^^
+> 11 |   Input, 
+     | ^^^^^^^
+> 12 |   Textarea, 
+     | ^^^^^^^
+> 13 |   Button, 
+     | ^^^^^^^
+> 14 |   SimpleGrid,
+     | ^^^^^^^
+> 15 |   FormControl,
+     | ^^^^^^^
+> 16 |   FormLabel,
+     | ^^^^^^^
+> 17 |   Image,
+     | ^^^^^^^
+> 18 |   HStack
+     | ^^^^^^^
+> 19 | } from '@chakra-ui/react'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  20 | import { motion } from 'framer-motion'
+  21 | import { Send, Phone, Mail, MapPin } from 'lucide-react'
+  22 |
+
+The export FormControl was not found in module [project]/Desktop/Trabajo/ME/Inacril/inacril/node_modules/@chakra-ui/react/dist/esm/index.js [app-client] (ecmascript).
+Did you mean to import SliderControl?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx [Client Component Browser]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Client Component Browser]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx [Client Component SSR]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Client Component SSR]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Server Component]
+[01:27:14.539] Browser ERROR   ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx:4:1
+Export FormControl doesn't exist in target module
+   2 |
+   3 | import React from 'react'
+>  4 | import { 
+     | ^^^^^^^^^
+>  5 |   Box, 
+     | ^^^^^^^
+>  6 |   Container, 
+     | ^^^^^^^
+>  7 |   Heading, 
+     | ^^^^^^^
+>  8 |   Text, 
+     | ^^^^^^^
+>  9 |   VStack, 
+     | ^^^^^^^
+> 10 |   Flex, 
+     | ^^^^^^^
+> 11 |   Input, 
+     | ^^^^^^^
+> 12 |   Textarea, 
+     | ^^^^^^^
+> 13 |   Button, 
+     | ^^^^^^^
+> 14 |   SimpleGrid,
+     | ^^^^^^^
+> 15 |   FormControl,
+     | ^^^^^^^
+> 16 |   FormLabel,
+     | ^^^^^^^
+> 17 |   Image,
+     | ^^^^^^^
+> 18 |   HStack
+     | ^^^^^^^
+> 19 | } from '@chakra-ui/react'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  20 | import { motion } from 'framer-motion'
+  21 | import { Send, Phone, Mail, MapPin } from 'lucide-react'
+  22 |
+
+The export FormControl was not found in module [project]/Desktop/Trabajo/ME/Inacril/inacril/node_modules/@chakra-ui/react/dist/esm/index.js [app-ssr] (ecmascript).
+Did you mean to import SliderControl?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx [Client Component Browser]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Client Component Browser]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx [Client Component SSR]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Client Component SSR]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Server Component]
+[01:27:14.539] Browser ERROR   ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx:4:1
+Export FormLabel doesn't exist in target module
+   2 |
+   3 | import React from 'react'
+>  4 | import { 
+     | ^^^^^^^^^
+>  5 |   Box, 
+     | ^^^^^^^
+>  6 |   Container, 
+     | ^^^^^^^
+>  7 |   Heading, 
+     | ^^^^^^^
+>  8 |   Text, 
+     | ^^^^^^^
+>  9 |   VStack, 
+     | ^^^^^^^
+> 10 |   Flex, 
+     | ^^^^^^^
+> 11 |   Input, 
+     | ^^^^^^^
+> 12 |   Textarea, 
+     | ^^^^^^^
+> 13 |   Button, 
+     | ^^^^^^^
+> 14 |   SimpleGrid,
+     | ^^^^^^^
+> 15 |   FormControl,
+     | ^^^^^^^
+> 16 |   FormLabel,
+     | ^^^^^^^
+> 17 |   Image,
+     | ^^^^^^^
+> 18 |   HStack
+     | ^^^^^^^
+> 19 | } from '@chakra-ui/react'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  20 | import { motion } from 'framer-motion'
+  21 | import { Send, Phone, Mail, MapPin } from 'lucide-react'
+  22 |
+
+The export FormLabel was not found in module [project]/Desktop/Trabajo/ME/Inacril/inacril/node_modules/@chakra-ui/react/dist/esm/index.js [app-client] (ecmascript).
+Did you mean to import FormatNumber?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx [Client Component Browser]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Client Component Browser]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx [Client Component SSR]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Client Component SSR]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Server Component]
+[01:27:14.539] Browser ERROR   ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx:4:1
+Export FormLabel doesn't exist in target module
+   2 |
+   3 | import React from 'react'
+>  4 | import { 
+     | ^^^^^^^^^
+>  5 |   Box, 
+     | ^^^^^^^
+>  6 |   Container, 
+     | ^^^^^^^
+>  7 |   Heading, 
+     | ^^^^^^^
+>  8 |   Text, 
+     | ^^^^^^^
+>  9 |   VStack, 
+     | ^^^^^^^
+> 10 |   Flex, 
+     | ^^^^^^^
+> 11 |   Input, 
+     | ^^^^^^^
+> 12 |   Textarea, 
+     | ^^^^^^^
+> 13 |   Button, 
+     | ^^^^^^^
+> 14 |   SimpleGrid,
+     | ^^^^^^^
+> 15 |   FormControl,
+     | ^^^^^^^
+> 16 |   FormLabel,
+     | ^^^^^^^
+> 17 |   Image,
+     | ^^^^^^^
+> 18 |   HStack
+     | ^^^^^^^
+> 19 | } from '@chakra-ui/react'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  20 | import { motion } from 'framer-motion'
+  21 | import { Send, Phone, Mail, MapPin } from 'lucide-react'
+  22 |
+
+The export FormLabel was not found in module [project]/Desktop/Trabajo/ME/Inacril/inacril/node_modules/@chakra-ui/react/dist/esm/index.js [app-ssr] (ecmascript).
+Did you mean to import FormatNumber?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx [Client Component Browser]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Client Component Browser]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx [Client Component SSR]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Client Component SSR]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Server Component]
+[01:27:14.945] Browser ERROR   uncaughtError: Error: ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx:4:1
+Export FormControl doesn't exist in target module
+   2 |
+   3 | import React from 'react'
+>  4 | import { 
+     | ^^^^^^^^^
+>  5 |   Box, 
+     | ^^^^^^^
+>  6 |   Container, 
+     | ^^^^^^^
+>  7 |   Heading, 
+     | ^^^^^^^
+>  8 |   Text, 
+     | ^^^^^^^
+>  9 |   VStack, 
+     | ^^^^^^^
+> 10 |   Flex, 
+     | ^^^^^^^
+> 11 |   Input, 
+     | ^^^^^^^
+> 12 |   Textarea, 
+     | ^^^^^^^
+> 13 |   Button, 
+     | ^^^^^^^
+> 14 |   SimpleGrid,
+     | ^^^^^^^
+> 15 |   FormControl,
+     | ^^^^^^^
+> 16 |   FormLabel,
+     | ^^^^^^^
+> 17 |   Image,
+     | ^^^^^^^
+> 18 |   HStack
+     | ^^^^^^^
+> 19 | } from '@chakra-ui/react'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  20 | import { motion } from 'framer-motion'
+  21 | import { Send, Phone, Mail, MapPin } from 'lucide-react'
+  22 |
+
+The export FormControl was not found in module [project]/Desktop/Trabajo/ME/Inacril/inacril/node_modules/@chakra-ui/react/dist/esm/index.js [app-client] (ecmascript).
+Did you mean to import SliderControl?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx [Client Component Browser]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Client Component Browser]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx [Client Component SSR]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Client Component SSR]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Server Component]
+
+
+[01:27:15.131] Browser ERROR   ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx:4:1
+Export FormControl doesn't exist in target module
+   2 |
+   3 | import React from 'react'
+>  4 | import { 
+     | ^^^^^^^^^
+>  5 |   Box, 
+     | ^^^^^^^
+>  6 |   Container, 
+     | ^^^^^^^
+>  7 |   Heading, 
+     | ^^^^^^^
+>  8 |   Text, 
+     | ^^^^^^^
+>  9 |   VStack, 
+     | ^^^^^^^
+> 10 |   Flex, 
+     | ^^^^^^^
+> 11 |   Input, 
+     | ^^^^^^^
+> 12 |   Textarea, 
+     | ^^^^^^^
+> 13 |   Button, 
+     | ^^^^^^^
+> 14 |   SimpleGrid,
+     | ^^^^^^^
+> 15 |   FormControl,
+     | ^^^^^^^
+> 16 |   FormLabel,
+     | ^^^^^^^
+> 17 |   Image,
+     | ^^^^^^^
+> 18 |   HStack
+     | ^^^^^^^
+> 19 | } from '@chakra-ui/react'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  20 | import { motion } from 'framer-motion'
+  21 | import { Send, Phone, Mail, MapPin } from 'lucide-react'
+  22 |
+
+The export FormControl was not found in module [project]/Desktop/Trabajo/ME/Inacril/inacril/node_modules/@chakra-ui/react/dist/esm/index.js [app-client] (ecmascript).
+Did you mean to import SliderControl?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx [Client Component Browser]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Client Component Browser]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx [Client Component SSR]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Client Component SSR]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Server Component]
+[01:27:15.131] Browser ERROR   ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx:4:1
+Export FormControl doesn't exist in target module
+   2 |
+   3 | import React from 'react'
+>  4 | import { 
+     | ^^^^^^^^^
+>  5 |   Box, 
+     | ^^^^^^^
+>  6 |   Container, 
+     | ^^^^^^^
+>  7 |   Heading, 
+     | ^^^^^^^
+>  8 |   Text, 
+     | ^^^^^^^
+>  9 |   VStack, 
+     | ^^^^^^^
+> 10 |   Flex, 
+     | ^^^^^^^
+> 11 |   Input, 
+     | ^^^^^^^
+> 12 |   Textarea, 
+     | ^^^^^^^
+> 13 |   Button, 
+     | ^^^^^^^
+> 14 |   SimpleGrid,
+     | ^^^^^^^
+> 15 |   FormControl,
+     | ^^^^^^^
+> 16 |   FormLabel,
+     | ^^^^^^^
+> 17 |   Image,
+     | ^^^^^^^
+> 18 |   HStack
+     | ^^^^^^^
+> 19 | } from '@chakra-ui/react'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  20 | import { motion } from 'framer-motion'
+  21 | import { Send, Phone, Mail, MapPin } from 'lucide-react'
+  22 |
+
+The export FormControl was not found in module [project]/Desktop/Trabajo/ME/Inacril/inacril/node_modules/@chakra-ui/react/dist/esm/index.js [app-ssr] (ecmascript).
+Did you mean to import SliderControl?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx [Client Component Browser]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Client Component Browser]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx [Client Component SSR]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Client Component SSR]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Server Component]
+[01:27:15.131] Browser ERROR   ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx:4:1
+Export FormLabel doesn't exist in target module
+   2 |
+   3 | import React from 'react'
+>  4 | import { 
+     | ^^^^^^^^^
+>  5 |   Box, 
+     | ^^^^^^^
+>  6 |   Container, 
+     | ^^^^^^^
+>  7 |   Heading, 
+     | ^^^^^^^
+>  8 |   Text, 
+     | ^^^^^^^
+>  9 |   VStack, 
+     | ^^^^^^^
+> 10 |   Flex, 
+     | ^^^^^^^
+> 11 |   Input, 
+     | ^^^^^^^
+> 12 |   Textarea, 
+     | ^^^^^^^
+> 13 |   Button, 
+     | ^^^^^^^
+> 14 |   SimpleGrid,
+     | ^^^^^^^
+> 15 |   FormControl,
+     | ^^^^^^^
+> 16 |   FormLabel,
+     | ^^^^^^^
+> 17 |   Image,
+     | ^^^^^^^
+> 18 |   HStack
+     | ^^^^^^^
+> 19 | } from '@chakra-ui/react'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  20 | import { motion } from 'framer-motion'
+  21 | import { Send, Phone, Mail, MapPin } from 'lucide-react'
+  22 |
+
+The export FormLabel was not found in module [project]/Desktop/Trabajo/ME/Inacril/inacril/node_modules/@chakra-ui/react/dist/esm/index.js [app-client] (ecmascript).
+Did you mean to import FormatNumber?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx [Client Component Browser]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Client Component Browser]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx [Client Component SSR]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Client Component SSR]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Server Component]
+[01:27:15.131] Browser ERROR   ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx:4:1
+Export FormLabel doesn't exist in target module
+   2 |
+   3 | import React from 'react'
+>  4 | import { 
+     | ^^^^^^^^^
+>  5 |   Box, 
+     | ^^^^^^^
+>  6 |   Container, 
+     | ^^^^^^^
+>  7 |   Heading, 
+     | ^^^^^^^
+>  8 |   Text, 
+     | ^^^^^^^
+>  9 |   VStack, 
+     | ^^^^^^^
+> 10 |   Flex, 
+     | ^^^^^^^
+> 11 |   Input, 
+     | ^^^^^^^
+> 12 |   Textarea, 
+     | ^^^^^^^
+> 13 |   Button, 
+     | ^^^^^^^
+> 14 |   SimpleGrid,
+     | ^^^^^^^
+> 15 |   FormControl,
+     | ^^^^^^^
+> 16 |   FormLabel,
+     | ^^^^^^^
+> 17 |   Image,
+     | ^^^^^^^
+> 18 |   HStack
+     | ^^^^^^^
+> 19 | } from '@chakra-ui/react'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  20 | import { motion } from 'framer-motion'
+  21 | import { Send, Phone, Mail, MapPin } from 'lucide-react'
+  22 |
+
+The export FormLabel was not found in module [project]/Desktop/Trabajo/ME/Inacril/inacril/node_modules/@chakra-ui/react/dist/esm/index.js [app-ssr] (ecmascript).
+Did you mean to import FormatNumber?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx [Client Component Browser]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Client Component Browser]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx [Client Component SSR]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Client Component SSR]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Server Component]
+[01:27:15.131] Browser ERROR   ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx:4:1
+Export FormControl doesn't exist in target module
+   2 |
+   3 | import React from 'react'
+>  4 | import { 
+     | ^^^^^^^^^
+>  5 |   Box, 
+     | ^^^^^^^
+>  6 |   Container, 
+     | ^^^^^^^
+>  7 |   Heading, 
+     | ^^^^^^^
+>  8 |   Text, 
+     | ^^^^^^^
+>  9 |   VStack, 
+     | ^^^^^^^
+> 10 |   Flex, 
+     | ^^^^^^^
+> 11 |   Input, 
+     | ^^^^^^^
+> 12 |   Textarea, 
+     | ^^^^^^^
+> 13 |   Button, 
+     | ^^^^^^^
+> 14 |   SimpleGrid,
+     | ^^^^^^^
+> 15 |   FormControl,
+     | ^^^^^^^
+> 16 |   FormLabel,
+     | ^^^^^^^
+> 17 |   Image,
+     | ^^^^^^^
+> 18 |   HStack
+     | ^^^^^^^
+> 19 | } from '@chakra-ui/react'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  20 | import { motion } from 'framer-motion'
+  21 | import { Send, Phone, Mail, MapPin } from 'lucide-react'
+  22 |
+
+The export FormControl was not found in module [project]/Desktop/Trabajo/ME/Inacril/inacril/node_modules/@chakra-ui/react/dist/esm/index.js [app-client] (ecmascript).
+Did you mean to import SliderControl?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx [Client Component Browser]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Client Component Browser]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx [Client Component SSR]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Client Component SSR]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Server Component]
+[01:27:15.131] Browser ERROR   ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx:4:1
+Export FormControl doesn't exist in target module
+   2 |
+   3 | import React from 'react'
+>  4 | import { 
+     | ^^^^^^^^^
+>  5 |   Box, 
+     | ^^^^^^^
+>  6 |   Container, 
+     | ^^^^^^^
+>  7 |   Heading, 
+     | ^^^^^^^
+>  8 |   Text, 
+     | ^^^^^^^
+>  9 |   VStack, 
+     | ^^^^^^^
+> 10 |   Flex, 
+     | ^^^^^^^
+> 11 |   Input, 
+     | ^^^^^^^
+> 12 |   Textarea, 
+     | ^^^^^^^
+> 13 |   Button, 
+     | ^^^^^^^
+> 14 |   SimpleGrid,
+     | ^^^^^^^
+> 15 |   FormControl,
+     | ^^^^^^^
+> 16 |   FormLabel,
+     | ^^^^^^^
+> 17 |   Image,
+     | ^^^^^^^
+> 18 |   HStack
+     | ^^^^^^^
+> 19 | } from '@chakra-ui/react'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  20 | import { motion } from 'framer-motion'
+  21 | import { Send, Phone, Mail, MapPin } from 'lucide-react'
+  22 |
+
+The export FormControl was not found in module [project]/Desktop/Trabajo/ME/Inacril/inacril/node_modules/@chakra-ui/react/dist/esm/index.js [app-ssr] (ecmascript).
+Did you mean to import SliderControl?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx [Client Component Browser]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Client Component Browser]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx [Client Component SSR]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Client Component SSR]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Server Component]
+[01:27:15.131] Browser ERROR   ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx:4:1
+Export FormLabel doesn't exist in target module
+   2 |
+   3 | import React from 'react'
+>  4 | import { 
+     | ^^^^^^^^^
+>  5 |   Box, 
+     | ^^^^^^^
+>  6 |   Container, 
+     | ^^^^^^^
+>  7 |   Heading, 
+     | ^^^^^^^
+>  8 |   Text, 
+     | ^^^^^^^
+>  9 |   VStack, 
+     | ^^^^^^^
+> 10 |   Flex, 
+     | ^^^^^^^
+> 11 |   Input, 
+     | ^^^^^^^
+> 12 |   Textarea, 
+     | ^^^^^^^
+> 13 |   Button, 
+     | ^^^^^^^
+> 14 |   SimpleGrid,
+     | ^^^^^^^
+> 15 |   FormControl,
+     | ^^^^^^^
+> 16 |   FormLabel,
+     | ^^^^^^^
+> 17 |   Image,
+     | ^^^^^^^
+> 18 |   HStack
+     | ^^^^^^^
+> 19 | } from '@chakra-ui/react'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  20 | import { motion } from 'framer-motion'
+  21 | import { Send, Phone, Mail, MapPin } from 'lucide-react'
+  22 |
+
+The export FormLabel was not found in module [project]/Desktop/Trabajo/ME/Inacril/inacril/node_modules/@chakra-ui/react/dist/esm/index.js [app-client] (ecmascript).
+Did you mean to import FormatNumber?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx [Client Component Browser]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Client Component Browser]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx [Client Component SSR]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Client Component SSR]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Server Component]
+[01:27:15.131] Browser ERROR   ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx:4:1
+Export FormLabel doesn't exist in target module
+   2 |
+   3 | import React from 'react'
+>  4 | import { 
+     | ^^^^^^^^^
+>  5 |   Box, 
+     | ^^^^^^^
+>  6 |   Container, 
+     | ^^^^^^^
+>  7 |   Heading, 
+     | ^^^^^^^
+>  8 |   Text, 
+     | ^^^^^^^
+>  9 |   VStack, 
+     | ^^^^^^^
+> 10 |   Flex, 
+     | ^^^^^^^
+> 11 |   Input, 
+     | ^^^^^^^
+> 12 |   Textarea, 
+     | ^^^^^^^
+> 13 |   Button, 
+     | ^^^^^^^
+> 14 |   SimpleGrid,
+     | ^^^^^^^
+> 15 |   FormControl,
+     | ^^^^^^^
+> 16 |   FormLabel,
+     | ^^^^^^^
+> 17 |   Image,
+     | ^^^^^^^
+> 18 |   HStack
+     | ^^^^^^^
+> 19 | } from '@chakra-ui/react'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  20 | import { motion } from 'framer-motion'
+  21 | import { Send, Phone, Mail, MapPin } from 'lucide-react'
+  22 |
+
+The export FormLabel was not found in module [project]/Desktop/Trabajo/ME/Inacril/inacril/node_modules/@chakra-ui/react/dist/esm/index.js [app-ssr] (ecmascript).
+Did you mean to import FormatNumber?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx [Client Component Browser]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Client Component Browser]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/components/ProjectForm.jsx [Client Component SSR]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Client Component SSR]
+    ./Desktop/Trabajo/ME/Inacril/inacril/src/app/page.js [Server Component]
+[01:28:49.579] Server  LOG     ✓ Compiled in 165ms
+[01:31:03.379] Browser WARN    'whiteAlpha.400' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable
+[01:32:13.924] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <Head>
+        <__next_root_layout_boundary__>
+          <SegmentViewNode type="layout" pagePath="/Desktop/T...">
+            <SegmentTrieNode>
+            <link>
+            <script>
+            <script>
+            <script>
+            <script>
+            <script>
+            <script>
+            <script>
+            <script>
+            <script>
+            <RootLayout>
+              <html lang="es" suppressHydrationWarning={true}>
+                <body className="geist_2ae4...">
+                  <Provider>
+                    <ChakraProvider value={{$$chakra:true, ...}}>
+                      <EmotionGlobal>
+                      <EmotionGlobal>
+                      <ColorModeProvider>
+                        <J attribute="class" disableTransitionOnChange={true}>
+                          <V attribute="class" disableTransitionOnChange={true}>
++                           <script
++                             suppressHydrationWarning={true}
++                             nonce=""
++                             dangerouslySetInnerHTML={{__html:"((e, i, s,..."}}
++                           >
+-                           <style data-emotion="css-global ad1llf" data-s="">
+                            ...
+        ...
+
+[01:32:27.694] Server  ERROR   ⨯ ./Desktop/Trabajo/ME/Inacril/inacril/src/app/layout.js:3:1
+Module not found: Can't resolve '@/components/Navbar'
+  1 | import { Geist, Geist_Mono } from "next/font/google";
+  2 | import { Provider } from "@/components/ui/provider";
+> 3 | import { Navbar } from "@/components/Navbar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { Box } from "@chakra-ui/react";
+  5 | import "./globals.css";
+  6 |
+
+Import map: aliased to relative './src/components/Navbar' inside of [project]/Desktop/Trabajo/ME/Inacril/inacril
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:32:27.694] Server  ERROR   ⨯ ./Desktop/Trabajo/ME/Inacril/inacril/src/app/layout.js:3:1
+Module not found: Can't resolve '@/components/Navbar'
+  1 | import { Geist, Geist_Mono } from "next/font/google";
+  2 | import { Provider } from "@/components/ui/provider";
+> 3 | import { Navbar } from "@/components/Navbar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { Box } from "@chakra-ui/react";
+  5 | import "./globals.css";
+  6 |
+
+Import map: aliased to relative './src/components/Navbar' inside of [project]/Desktop/Trabajo/ME/Inacril/inacril
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:32:27.727] Server  ERROR   ⨯ ./Desktop/Trabajo/ME/Inacril/inacril/src/app/layout.js:3:1
+Module not found: Can't resolve '@/components/Navbar'
+  1 | import { Geist, Geist_Mono } from "next/font/google";
+  2 | import { Provider } from "@/components/ui/provider";
+> 3 | import { Navbar } from "@/components/Navbar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { Box } from "@chakra-ui/react";
+  5 | import "./globals.css";
+  6 |
+
+Import map: aliased to relative './src/components/Navbar' inside of [project]/Desktop/Trabajo/ME/Inacril/inacril
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:32:27.727] Server  ERROR   ⨯ ./Desktop/Trabajo/ME/Inacril/inacril/src/app/layout.js:3:1
+Module not found: Can't resolve '@/components/Navbar'
+  1 | import { Geist, Geist_Mono } from "next/font/google";
+  2 | import { Provider } from "@/components/ui/provider";
+> 3 | import { Navbar } from "@/components/Navbar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { Box } from "@chakra-ui/react";
+  5 | import "./globals.css";
+  6 |
+
+Import map: aliased to relative './src/components/Navbar' inside of [project]/Desktop/Trabajo/ME/Inacril/inacril
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:32:27.802] Server  ERROR   ⨯ ./Desktop/Trabajo/ME/Inacril/inacril/src/app/layout.js:3:1
+Module not found: Can't resolve '@/components/Navbar'
+  1 | import { Geist, Geist_Mono } from "next/font/google";
+  2 | import { Provider } from "@/components/ui/provider";
+> 3 | import { Navbar } from "@/components/Navbar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { Box } from "@chakra-ui/react";
+  5 | import "./globals.css";
+  6 |
+
+Import map: aliased to relative './src/components/Navbar' inside of [project]/Desktop/Trabajo/ME/Inacril/inacril
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:32:27.802] Server  ERROR   ⨯ ./Desktop/Trabajo/ME/Inacril/inacril/src/app/layout.js:3:1
+Module not found: Can't resolve '@/components/Navbar'
+  1 | import { Geist, Geist_Mono } from "next/font/google";
+  2 | import { Provider } from "@/components/ui/provider";
+> 3 | import { Navbar } from "@/components/Navbar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { Box } from "@chakra-ui/react";
+  5 | import "./globals.css";
+  6 |
+
+Import map: aliased to relative './src/components/Navbar' inside of [project]/Desktop/Trabajo/ME/Inacril/inacril
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:32:27.803] Server  ERROR   ⨯ ./Desktop/Trabajo/ME/Inacril/inacril/src/app/layout.js:3:1
+Module not found: Can't resolve '@/components/Navbar'
+  1 | import { Geist, Geist_Mono } from "next/font/google";
+  2 | import { Provider } from "@/components/ui/provider";
+> 3 | import { Navbar } from "@/components/Navbar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { Box } from "@chakra-ui/react";
+  5 | import "./globals.css";
+  6 |
+
+Import map: aliased to relative './src/components/Navbar' inside of [project]/Desktop/Trabajo/ME/Inacril/inacril
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:32:27.803] Server  ERROR   ⨯ ./Desktop/Trabajo/ME/Inacril/inacril/src/app/layout.js:3:1
+Module not found: Can't resolve '@/components/Navbar'
+  1 | import { Geist, Geist_Mono } from "next/font/google";
+  2 | import { Provider } from "@/components/ui/provider";
+> 3 | import { Navbar } from "@/components/Navbar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { Box } from "@chakra-ui/react";
+  5 | import "./globals.css";
+  6 |
+
+Import map: aliased to relative './src/components/Navbar' inside of [project]/Desktop/Trabajo/ME/Inacril/inacril
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:32:27.803] Server  ERROR   ⨯ ./Desktop/Trabajo/ME/Inacril/inacril/src/app/layout.js:3:1
+Module not found: Can't resolve '@/components/Navbar'
+  1 | import { Geist, Geist_Mono } from "next/font/google";
+  2 | import { Provider } from "@/components/ui/provider";
+> 3 | import { Navbar } from "@/components/Navbar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { Box } from "@chakra-ui/react";
+  5 | import "./globals.css";
+  6 |
+
+Import map: aliased to relative './src/components/Navbar' inside of [project]/Desktop/Trabajo/ME/Inacril/inacril
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:32:27.804] Server  ERROR   ⨯ ./Desktop/Trabajo/ME/Inacril/inacril/src/app/layout.js:3:1
+Module not found: Can't resolve '@/components/Navbar'
+  1 | import { Geist, Geist_Mono } from "next/font/google";
+  2 | import { Provider } from "@/components/ui/provider";
+> 3 | import { Navbar } from "@/components/Navbar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { Box } from "@chakra-ui/react";
+  5 | import "./globals.css";
+  6 |
+
+Import map: aliased to relative './src/components/Navbar' inside of [project]/Desktop/Trabajo/ME/Inacril/inacril
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:32:27.804] Server  ERROR   ⨯ ./Desktop/Trabajo/ME/Inacril/inacril/src/app/layout.js:3:1
+Module not found: Can't resolve '@/components/Navbar'
+  1 | import { Geist, Geist_Mono } from "next/font/google";
+  2 | import { Provider } from "@/components/ui/provider";
+> 3 | import { Navbar } from "@/components/Navbar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { Box } from "@chakra-ui/react";
+  5 | import "./globals.css";
+  6 |
+
+Import map: aliased to relative './src/components/Navbar' inside of [project]/Desktop/Trabajo/ME/Inacril/inacril
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:32:27.804] Server  ERROR   ⨯ ./Desktop/Trabajo/ME/Inacril/inacril/src/app/layout.js:3:1
+Module not found: Can't resolve '@/components/Navbar'
+  1 | import { Geist, Geist_Mono } from "next/font/google";
+  2 | import { Provider } from "@/components/ui/provider";
+> 3 | import { Navbar } from "@/components/Navbar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { Box } from "@chakra-ui/react";
+  5 | import "./globals.css";
+  6 |
+
+Import map: aliased to relative './src/components/Navbar' inside of [project]/Desktop/Trabajo/ME/Inacril/inacril
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:32:27.804] Server  ERROR   ⨯ ./Desktop/Trabajo/ME/Inacril/inacril/src/app/layout.js:3:1
+Module not found: Can't resolve '@/components/Navbar'
+  1 | import { Geist, Geist_Mono } from "next/font/google";
+  2 | import { Provider } from "@/components/ui/provider";
+> 3 | import { Navbar } from "@/components/Navbar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { Box } from "@chakra-ui/react";
+  5 | import "./globals.css";
+  6 |
+
+Import map: aliased to relative './src/components/Navbar' inside of [project]/Desktop/Trabajo/ME/Inacril/inacril
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:32:27.804] Server  ERROR   ⨯ ./Desktop/Trabajo/ME/Inacril/inacril/src/app/layout.js:3:1
+Module not found: Can't resolve '@/components/Navbar'
+  1 | import { Geist, Geist_Mono } from "next/font/google";
+  2 | import { Provider } from "@/components/ui/provider";
+> 3 | import { Navbar } from "@/components/Navbar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { Box } from "@chakra-ui/react";
+  5 | import "./globals.css";
+  6 |
+
+Import map: aliased to relative './src/components/Navbar' inside of [project]/Desktop/Trabajo/ME/Inacril/inacril
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:32:27.805] Server  ERROR   ⨯ ./Desktop/Trabajo/ME/Inacril/inacril/src/app/layout.js:3:1
+Module not found: Can't resolve '@/components/Navbar'
+  1 | import { Geist, Geist_Mono } from "next/font/google";
+  2 | import { Provider } from "@/components/ui/provider";
+> 3 | import { Navbar } from "@/components/Navbar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { Box } from "@chakra-ui/react";
+  5 | import "./globals.css";
+  6 |
+
+Import map: aliased to relative './src/components/Navbar' inside of [project]/Desktop/Trabajo/ME/Inacril/inacril
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:32:27.805] Server  ERROR   ⨯ ./Desktop/Trabajo/ME/Inacril/inacril/src/app/layout.js:3:1
+Module not found: Can't resolve '@/components/Navbar'
+  1 | import { Geist, Geist_Mono } from "next/font/google";
+  2 | import { Provider } from "@/components/ui/provider";
+> 3 | import { Navbar } from "@/components/Navbar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { Box } from "@chakra-ui/react";
+  5 | import "./globals.css";
+  6 |
+
+Import map: aliased to relative './src/components/Navbar' inside of [project]/Desktop/Trabajo/ME/Inacril/inacril
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:32:27.835] Server  LOG     ✓ Compiled in 184ms
+[01:32:28.914] Browser ERROR   ./Desktop/Trabajo/ME/Inacril/inacril/src/app/layout.js:3:1
+Module not found: Can't resolve '@/components/Navbar'
+  1 | import { Geist, Geist_Mono } from "next/font/google";
+  2 | import { Provider } from "@/components/ui/provider";
+> 3 | import { Navbar } from "@/components/Navbar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { Box } from "@chakra-ui/react";
+  5 | import "./globals.css";
+  6 |
+
+Import map: aliased to relative './src/components/Navbar' inside of [project]/Desktop/Trabajo/ME/Inacril/inacril
+
+https://nextjs.org/docs/messages/module-not-found
+[01:32:58.908] Server  ERROR   ⨯ ./Desktop/Trabajo/ME/Inacril/inacril/src/app/layout.js:3:1
+Module not found: Can't resolve '@/components/Navbar'
+  1 | import { Geist, Geist_Mono } from "next/font/google";
+  2 | import { Provider } from "@/components/ui/provider";
+> 3 | import { Navbar } from "@/components/Navbar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { Box } from "@chakra-ui/react";
+  5 | import "./globals.css";
+  6 |
+
+Import map: aliased to relative './src/components/Navbar' inside of [project]/Desktop/Trabajo/ME/Inacril/inacril
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:32:59.915] Browser ERROR   ./Desktop/Trabajo/ME/Inacril/inacril/src/app/layout.js:3:1
+Module not found: Can't resolve '@/components/Navbar'
+  1 | import { Geist, Geist_Mono } from "next/font/google";
+  2 | import { Provider } from "@/components/ui/provider";
+> 3 | import { Navbar } from "@/components/Navbar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { Box } from "@chakra-ui/react";
+  5 | import "./globals.css";
+  6 |
+
+Import map: aliased to relative './src/components/Navbar' inside of [project]/Desktop/Trabajo/ME/Inacril/inacril
+
+https://nextjs.org/docs/messages/module-not-found
+[01:35:35.374] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <Head>
+        <__next_root_layout_boundary__>
+          <SegmentViewNode type="layout" pagePath="/Desktop/T...">
+            <SegmentTrieNode>
+            <link>
+            <script>
+            <script>
+            <script>
+            <script>
+            <script>
+            <script>
+            <script>
+            <script>
+            <script>
+            <RootLayout>
+              <html lang="es" suppressHydrationWarning={true}>
+                <body className="geist_2ae4...">
+                  <Provider>
+                    <ChakraProvider value={{$$chakra:true, ...}}>
+                      <EmotionGlobal>
+                      <EmotionGlobal>
+                      <ColorModeProvider>
+                        <J attribute="class" disableTransitionOnChange={true}>
+                          <V attribute="class" disableTransitionOnChange={true}>
++                           <script
++                             suppressHydrationWarning={true}
++                             nonce=""
++                             dangerouslySetInnerHTML={{__html:"((e, i, s,..."}}
++                           >
+-                           <style data-emotion="css-global ad1llf" data-s="">
+                            ...
+        ...
+
+[01:35:38.094] Browser WARN    'whiteAlpha.400' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable
+[01:37:37.227] Browser WARN    'whiteAlpha.400' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable
+[01:38:23.106] Server  LOG     ✓ Compiled in 183ms
+[01:38:52.337] Server  LOG     ✓ Compiled in 176ms
+[01:39:20.611] Server  LOG     ✓ Compiled in 130ms
