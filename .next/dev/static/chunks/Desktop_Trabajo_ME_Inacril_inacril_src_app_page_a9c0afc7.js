@@ -5,7 +5,7 @@
   "static/chunks/854d0_motion-dom_dist_es_99bef5b1._.js",
   "static/chunks/854d0_framer-motion_dist_es_308b2520._.js",
   "static/chunks/854d0_swiper_9f545707._.js",
-  "static/chunks/854d0_cfc0a61c._.js",
+  "static/chunks/854d0_0045eae1._.js",
   "static/chunks/854d0_swiper_d59ec255._.css"
 ],
     source: "dynamic"
