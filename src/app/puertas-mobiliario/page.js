@@ -19,6 +19,7 @@ import { motion } from 'framer-motion'
 import { Shield, Heart, Award, Clock, CheckCircle, ArrowRight, Flame, Hospital, Volume2, Lock, Zap } from 'lucide-react'
 import { Navbar } from '@/components/Navbar'
 import { Footer } from '@/components/Footer'
+import './puertas.css'
 
 const MotionBox = motion.create(Box)
 const MotionVStack = motion.create(VStack)
@@ -28,68 +29,58 @@ export default function PuertasMobiliario() {
         <Box bg="white" minH="100vh">
             <Navbar />
 
-            {/* Hero Section */}
-            <Box
-                position="relative"
-                h={{ base: "70vh", md: "80vh" }}
-                overflow="hidden"
-                mt="100px"
-            >
-                <Box
-                    position="absolute"
-                    top="0"
-                    left="0"
-                    right="0"
-                    bottom="0"
-                    bgGradient="linear(to-r, rgba(10,16,33,0.92), rgba(10,16,33,0.75))"
-                    zIndex="1"
-                />
-                <Image
+            {/* Intro Banner Section */}
+            <div className="puertas-intro-banner">
+                <div className="puertas-intro-overlay"></div>
+                <img
                     src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=1600&q=80"
-                    alt="Modern office interior"
-                    objectFit="cover"
-                    w="100%"
-                    h="100%"
+                    alt="Puertas y Mobiliario Interior"
+                    className="puertas-intro-bg"
                 />
 
-                <Container maxW="7xl" px={8} position="relative" zIndex="2" h="100%">
-                    <Flex h="100%" align="center">
-                        <MotionVStack
-                            align="flex-start"
-                            gap={6}
-                            maxW="2xl"
-                            initial={{ opacity: 0, y: 40 }}
-                            animate={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 0.8 }}
-                        >
-                            <Text color="cyan.400" fontSize="xs" fontWeight="bold" letterSpacing="0.2em" textTransform="uppercase">
-                                PUERTAS Y MOBILIARIO INTERIOR
-                            </Text>
-                            <Heading color="white" fontSize={{ base: "3xl", md: "5xl", lg: "6xl" }} fontWeight="bold" lineHeight="1.15">
-                                Puertas que protegen vidas y elevan proyectos
-                            </Heading>
-                            <Text color="whiteAlpha.900" fontSize={{ base: "md", md: "lg" }} lineHeight="relaxed" maxW="xl">
-                                Soluciones técnicas certificadas que simplifican tu obra, reducen riesgos y aportan valor real desde el primer día.
-                            </Text>
-                            <Button
-                                size="lg"
-                                bg="#48BB78"
-                                color="white"
-                                px={8}
-                                height="56px"
-                                fontSize="md"
-                                _hover={{ bg: "#38A169", transform: "translateX(5px)" }}
-                                transition="all 0.3s"
-                            >
-                                <HStack gap={2}>
-                                    <Text>Solicitar Asesoría Técnica</Text>
-                                    <ArrowRight size={18} />
-                                </HStack>
-                            </Button>
-                        </MotionVStack>
-                    </Flex>
-                </Container>
-            </Box>
+                <div className="puertas-intro-content">
+                    <div className="puertas-intro-label">PUERTAS Y MOBILIARIO INTERIOR</div>
+                    <h1 className="puertas-intro-title">
+                        Soluciones técnicas que <span className="highlight">protegen vidas</span> y elevan proyectos
+                    </h1>
+                    <p className="puertas-intro-description">
+                        En INACRIL no vendemos puertas genéricas. Entregamos soluciones certificadas con respaldo normativo,
+                        materiales de alto nivel y acompañamiento experto de principio a fin.
+                    </p>
+
+                    <div className="puertas-intro-features">
+                        <div className="puertas-intro-feature">
+                            <div className="puertas-intro-feature-icon">
+                                <Shield size={28} />
+                            </div>
+                            <div className="puertas-intro-feature-title">Certificación Internacional</div>
+                            <div className="puertas-intro-feature-text">
+                                Puertas cortafuego con certificación UL y UNE de 60, 90 y 120 minutos
+                            </div>
+                        </div>
+
+                        <div className="puertas-intro-feature">
+                            <div className="puertas-intro-feature-icon">
+                                <Hospital size={28} />
+                            </div>
+                            <div className="puertas-intro-feature-title">Materiales Técnicos</div>
+                            <div className="puertas-intro-feature-text">
+                                HPL de alta presión y accesorios TESA para máxima durabilidad
+                            </div>
+                        </div>
+
+                        <div className="puertas-intro-feature">
+                            <div className="puertas-intro-feature-icon">
+                                <Award size={28} />
+                            </div>
+                            <div className="puertas-intro-feature-title">Acompañamiento Total</div>
+                            <div className="puertas-intro-feature-text">
+                                Desde especificación técnica hasta instalación sin reprocesos
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             {/* Purpose Section - White background with image */}
             <Box bg="white" py={{ base: 20, md: 32 }}>
@@ -229,59 +220,27 @@ export default function PuertasMobiliario() {
             </Box>
 
             {/* CTA Section - Dark with image background */}
-            <Box
-                position="relative"
-                py={{ base: 24, md: 40 }}
-                overflow="hidden"
-            >
-                <Box
-                    position="absolute"
-                    top="0"
-                    left="0"
-                    right="0"
-                    bottom="0"
-                    bg="rgba(10,16,33,0.88)"
-                    zIndex="1"
-                />
-                <Image
+            <div className="puertas-cta">
+                <div className="puertas-cta-overlay"></div>
+                <img
                     src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1600&q=80"
                     alt="Modern building"
-                    objectFit="cover"
-                    w="100%"
-                    h="100%"
-                    position="absolute"
-                    top="0"
-                    left="0"
+                    className="puertas-cta-bg"
                 />
 
-                <Container maxW="5xl" px={8} position="relative" zIndex="2">
-                    <VStack gap={8} textAlign="center">
-                        <Heading color="white" fontSize={{ base: "2xl", md: "4xl", lg: "5xl" }} lineHeight="1.4" fontWeight="bold">
-                            ¿Listo para especificar tu proyecto con <Text as="span" color="cyan.300">total seguridad</Text>?
-                        </Heading>
-                        <Text color="white" fontSize={{ base: "md", md: "lg" }} maxW="2xl" lineHeight="relaxed" opacity="0.95">
-                            Solicita una asesoría técnica sin costo y descubre cómo nuestras puertas certificadas pueden proteger vidas, simplificar tu obra y elevar el valor de tu proyecto.
-                        </Text>
-                        <Button
-                            size="lg"
-                            bg="#48BB78"
-                            color="white"
-                            px={10}
-                            height="60px"
-                            fontSize="md"
-                            fontWeight="bold"
-                            _hover={{ bg: "#38A169", transform: "translateY(-3px)" }}
-                            transition="all 0.3s"
-                            boxShadow="lg"
-                        >
-                            <HStack gap={2}>
-                                <Text>Solicitar Asesoría Técnica Gratuita</Text>
-                                <ArrowRight size={20} />
-                            </HStack>
-                        </Button>
-                    </VStack>
-                </Container>
-            </Box>
+                <div className="puertas-cta-content">
+                    <h2 className="puertas-cta-title">
+                        ¿Listo para especificar tu proyecto con <span className="highlight">total seguridad</span>?
+                    </h2>
+                    <p className="puertas-cta-text">
+                        Solicita una asesoría técnica sin costo y descubre cómo nuestras puertas certificadas pueden proteger vidas, simplificar tu obra y elevar el valor de tu proyecto.
+                    </p>
+                    <button className="puertas-cta-button">
+                        <span>Solicitar Asesoría Técnica Gratuita</span>
+                        <ArrowRight size={20} />
+                    </button>
+                </div>
+            </div>
 
             <Footer />
         </Box>

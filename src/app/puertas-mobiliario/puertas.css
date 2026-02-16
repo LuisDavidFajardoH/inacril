@@ -1,0 +1,321 @@
+/* Puertas y Mobiliario - Custom Styles */
+
+/* Intro Banner Section */
+.puertas-intro-banner {
+  position: relative;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin-top: 100px;
+}
+
+.puertas-intro-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(10, 16, 33, 0.65);
+  z-index: 1;
+}
+
+.puertas-intro-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.puertas-intro-content {
+  position: relative;
+  z-index: 2;
+  max-width: 1200px;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.puertas-intro-label {
+  color: #67e8f9;
+  font-size: 0.75rem;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+.puertas-intro-title {
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+}
+
+.puertas-intro-title .highlight {
+  color: #67e8f9;
+}
+
+.puertas-intro-description {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1.25rem;
+  line-height: 1.75;
+  max-width: 900px;
+  margin: 0 auto 2rem;
+}
+
+.puertas-intro-features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.puertas-intro-feature {
+  text-align: center;
+}
+
+.puertas-intro-feature-icon {
+  width: 60px;
+  height: 60px;
+  background: rgba(103, 232, 249, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1rem;
+  color: #67e8f9;
+}
+
+.puertas-intro-feature-title {
+  color: white;
+  font-size: 1.125rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.puertas-intro-feature-text {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.9375rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .puertas-intro-banner {
+    min-height: 75vh;
+  }
+
+  .puertas-intro-content {
+    padding: 3rem 1.5rem;
+  }
+
+  .puertas-intro-title {
+    font-size: 2rem;
+  }
+
+  .puertas-intro-description {
+    font-size: 1rem;
+  }
+
+  .puertas-intro-features {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
+
+.puertas-hero {
+  position: relative;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  overflow: hidden;
+  margin-top: 100px;
+}
+
+.puertas-hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to right, rgba(10, 16, 33, 0.92), rgba(10, 16, 33, 0.75));
+  z-index: 1;
+}
+
+.puertas-hero-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.puertas-hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 700px;
+  padding: 0 2rem;
+}
+
+/* CTA Section - Perfectly Centered */
+.puertas-cta {
+  position: relative;
+  padding: 6rem 0;
+  overflow: hidden;
+  background-color: #0a1021;
+}
+
+.puertas-cta-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(10, 16, 33, 0.88);
+  z-index: 1;
+}
+
+.puertas-cta-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.puertas-cta-content {
+  position: relative;
+  z-index: 2;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  text-align: center;
+}
+
+.puertas-cta-title {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 1.4;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.puertas-cta-title .highlight {
+  color: #67e8f9;
+}
+
+.puertas-cta-text {
+  color: white;
+  font-size: 1.125rem;
+  line-height: 1.75;
+  opacity: 0.95;
+  margin-bottom: 2.5rem;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.puertas-cta-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: #48bb78;
+  color: white;
+  padding: 1rem 2.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.puertas-cta-button:hover {
+  background-color: #38a169;
+  transform: translateY(-3px);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .puertas-hero {
+    min-height: 70vh;
+  }
+
+  .puertas-hero-content {
+    max-width: 100%;
+    padding: 0 1.5rem;
+  }
+
+  .puertas-cta {
+    padding: 4rem 0;
+  }
+
+  .puertas-cta-content {
+    padding: 0 1.5rem;
+  }
+
+  .puertas-cta-title {
+    font-size: 1.875rem;
+  }
+
+  .puertas-cta-text {
+    font-size: 1rem;
+  }
+
+  .puertas-cta-button {
+    padding: 0.875rem 2rem;
+    font-size: 0.9375rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .puertas-cta-title {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1025px) {
+  .puertas-cta-title {
+    font-size: 3.5rem;
+  }
+}
+
+/* Product Cards */
+.product-card {
+  background: white;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+}
+
+.product-card-image {
+  position: relative;
+  height: 300px;
+  overflow: hidden;
+}
+
+.product-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (min-width: 1024px) {
+  .product-card-image {
+    height: 100%;
+    min-height: 500px;
+  }
+}
