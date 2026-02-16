@@ -8,8 +8,8 @@ import { useState, useEffect } from 'react'
 const navItems = [
   { label: 'Acrílicos, PETG', subLabel: 'y Señalética', color: '#9F7AEA', href: '/acrilicos' },
   { label: 'Imagen Corporativa', subLabel: 'Integral', color: '#718096', href: '/imagen-corporativa' },
-  { label: 'Mobiliario Exterior', subLabel: 'y Fachadas', color: '#4299E1', href: '/mobiliario-exterior' },
-  { label: 'Mobiliario Interior', subLabel: 'y Baños HPL', color: '#48BB78', href: '/mobiliario-interior' },
+  { label: 'Fachadas y', subLabel: 'Exteriores', color: '#4299E1', href: '/fachadas-exteriores' },
+  { label: 'Baños Industriales', subLabel: 'y Hogar', color: '#48BB78', href: '/banos-industriales-hogar' },
   { label: 'Puertas y Mobiliario', subLabel: 'Interior', color: '#A0AEC0', href: '/puertas-mobiliario' },
   { label: 'Cubiertas en', subLabel: 'Policarbonato y UPVC', color: '#667EEA', href: '/cubiertas' },
 ]

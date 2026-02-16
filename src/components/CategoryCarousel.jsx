@@ -27,8 +27,8 @@ const categories = [
     color: 'rgba(34, 64, 110, 0.8)' // Slate Blue
   },
   {
-    title: 'Mobiliario Interior y HPL',
-    image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=2069&auto=format&fit=crop',
+    title: 'Baños Industriales y Hogar',
+    image: 'https://images.unsplash.com/photo-1584622050111-993a426fbf0a?q=80&w=2069&auto=format&fit=crop',
     color: 'rgba(35, 78, 64, 0.8)' // Sage Green
   },
   {
