@@ -1,1 +1,54 @@
 [00:00:00.754] Server  LOG     ✓ Ready in 470ms
+[36:02:18.772] Server  LOG     ✓ Compiled in 71ms
+[36:02:57.805] Server  LOG     ✓ Compiled in 46ms
+[36:04:58.772] Server  LOG     ✓ Compiled in 40ms
+[36:04:59.638] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <Head>
+        <__next_root_layout_boundary__>
+          <SegmentViewNode type="layout" pagePath="/Desktop/T...">
+            <SegmentTrieNode>
+            <link>
+            <script>
+            <script>
+            <script>
+            <script>
+            <script>
+            <script>
+            <script>
+            <script>
+            <script>
+            <RootLayout>
+              <html lang="es" suppressHydrationWarning={true}>
+                <body className="geist_2ae4...">
+                  <Provider>
+                    <ChakraProvider value={{$$chakra:true, ...}}>
+                      <EmotionGlobal>
+                      <EmotionGlobal>
+                      <ColorModeProvider>
+                        <J attribute="class" disableTransitionOnChange={true}>
+                          <V attribute="class" disableTransitionOnChange={true}>
++                           <script
++                             suppressHydrationWarning={true}
++                             nonce=""
++                             dangerouslySetInnerHTML={{__html:"((e, i, s,..."}}
++                           >
+-                           <style data-emotion="css-global ad1llf" data-s="">
+                            ...
+        ...
+
+[36:06:08.446] Server  LOG     ✓ Compiled in 56ms
+[36:06:23.904] Browser WARN    'whiteAlpha.400' is not an animatable color. Use the equivalent color code instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable

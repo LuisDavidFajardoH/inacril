@@ -9,6 +9,7 @@ import { CategoryCarousel } from "@/components/CategoryCarousel"
 import { SolutionsSection } from "@/components/SolutionsSection"
 import { ProjectHighlight } from "@/components/ProjectHighlight"
 import { ProjectForm } from "@/components/ProjectForm"
+import { AlliesCarousel } from "@/components/AlliesCarousel"
 import { Footer } from "@/components/Footer"
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Autoplay, Pagination, EffectFade } from 'swiper/modules'
@@ -156,6 +157,9 @@ export default function Home() {
 
       {/* Project Highlight Section */}
       <ProjectHighlight />
+
+      {/* Allies Carousel Section */}
+      <AlliesCarousel />
 
       {/* Project Form Section */}
       <ProjectForm />
