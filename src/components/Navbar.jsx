@@ -6,12 +6,12 @@ import { motion } from 'framer-motion'
 import { useState, useEffect } from 'react'
 
 const navItems = [
-  { label: 'Acrílicos, PETG', subLabel: 'y Señalética', color: '#9F7AEA' },
-  { label: 'Imagen Corporativa', subLabel: 'Integral', color: '#718096' },
-  { label: 'Mobiliario Exterior', subLabel: 'y Fachadas', color: '#4299E1' },
-  { label: 'Mobiliario Interior', subLabel: 'y Baños HPL', color: '#48BB78' },
-  { label: 'Puertas Cortafuego', subLabel: 'RF 60-90-120', color: '#A0AEC0' },
-  { label: 'Cubiertas en', subLabel: 'Policarbonato y UPVC', color: '#667EEA' },
+  { label: 'Acrílicos, PETG', subLabel: 'y Señalética', color: '#9F7AEA', href: '/acrilicos' },
+  { label: 'Imagen Corporativa', subLabel: 'Integral', color: '#718096', href: '/imagen-corporativa' },
+  { label: 'Mobiliario Exterior', subLabel: 'y Fachadas', color: '#4299E1', href: '/mobiliario-exterior' },
+  { label: 'Mobiliario Interior', subLabel: 'y Baños HPL', color: '#48BB78', href: '/mobiliario-interior' },
+  { label: 'Puertas y Mobiliario', subLabel: 'Interior', color: '#A0AEC0', href: '/puertas-mobiliario' },
+  { label: 'Cubiertas en', subLabel: 'Policarbonato y UPVC', color: '#667EEA', href: '/cubiertas' },
 ]
 
 export const Navbar = () => {
@@ -55,12 +55,14 @@ export const Navbar = () => {
           {/* Menu Items */}
           <HStack gap={8} display={{ base: 'none', xl: 'flex' }}>
             {navItems.map((item, index) => (
-              <Box
+              <Link
                 key={index}
+                href={item.href}
                 cursor="pointer"
                 position="relative"
                 role="group"
                 py={2}
+                _hover={{ textDecoration: 'none' }}
               >
                 <VStack align="flex-start" gap={0}>
                   <Text fontSize="10px" fontWeight="medium" textTransform="uppercase" letterSpacing="0.05em" opacity={0.7}>
@@ -83,7 +85,7 @@ export const Navbar = () => {
                   transform="scaleX(1)"
                   transformOrigin="left"
                 />
-              </Box>
+              </Link>
             ))}
           </HStack>
 
