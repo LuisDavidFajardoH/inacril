@@ -6,12 +6,12 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { useState, useEffect } from 'react'
 
 const navItems = [
-  { label: 'Acrílicos, PETG', subLabel: 'y Señalética', color: '#9F7AEA', href: '/acrilicos' },
-  { label: 'Imagen Corporativa', subLabel: 'Integral', color: '#718096', href: '/imagen-corporativa' },
-  { label: 'Fachadas y', subLabel: 'Exteriores', color: '#4299E1', href: '/fachadas-exteriores' },
-  { label: 'Baños Industriales', subLabel: 'y Hogar', color: '#48BB78', href: '/banos-industriales-hogar' },
-  { label: 'Puertas y Mobiliario', subLabel: 'Interior', color: '#A0AEC0', href: '/puertas-mobiliario' },
-  { label: 'Cubiertas en', subLabel: 'Policarbonato y UPVC', color: '#667EEA', href: '/cubiertas' },
+  { subLabel: 'PUBLICIDAD', color: '#9F7AEA', href: '/acrilicos' },
+  { subLabel: 'IMAGEN CORPORATIVA', color: '#718096', href: '/imagen-corporativa' },
+  { label: 'FACHADAS Y', subLabel: 'EXTERIORES', color: '#4299E1', href: '/fachadas-exteriores' },
+  { label: 'BAÑOS', subLabel: 'INDUSTRIALES Y HOGAR', color: '#48BB78', href: '/banos-industriales-hogar' },
+  { subLabel: 'PUERTAS TECNICAS',color: '#A0AEC0', href: '/puertas-mobiliario' },
+  { subLabel: 'CUBIERTAS', color: '#667EEA', href: '/cubiertas' },
 ]
 
 export const Navbar = () => {
@@ -69,15 +69,15 @@ export const Navbar = () => {
                 py={2}
                 _hover={{ textDecoration: 'none' }}
               >
-                <VStack align="flex-start" gap={0}>
-                  <Text fontSize="10px" fontWeight="medium" textTransform="uppercase" letterSpacing="0.05em" opacity={0.7}>
-                    {item.label}
-                  </Text>
-                  {item.subLabel && (
-                    <Text fontSize="11px" fontWeight="bold" whiteSpace="nowrap">
-                      {item.subLabel}
+                <VStack align="flex-start" gap={0} h="32px" justify="flex-end">
+                  {item.label && (
+                    <Text fontSize="10px" fontWeight="medium" textTransform="uppercase" letterSpacing="0.05em" opacity={0.7} lineHeight="1">
+                      {item.label}
                     </Text>
                   )}
+                  <Text fontSize="11px" fontWeight="bold" whiteSpace="nowrap" lineHeight="1.2">
+                    {item.subLabel}
+                  </Text>
                 </VStack>
                 {/* Underline */}
                 <Box
@@ -178,11 +178,13 @@ export const Navbar = () => {
                       transition="all 0.2s"
                       _hover={{ bg: 'whiteAlpha.100', transform: 'translateX(5px)' }}
                     >
-                      <VStack align="flex-start" gap={0}>
-                        <Text fontSize="10px" fontWeight="medium" textTransform="uppercase" letterSpacing="0.05em" opacity={0.7}>
-                          {item.label}
-                        </Text>
-                        <Text fontSize="14px" fontWeight="bold">
+                      <VStack align="flex-start" gap={0} h="40px" justify="flex-end">
+                        {item.label && (
+                          <Text fontSize="10px" fontWeight="medium" textTransform="uppercase" letterSpacing="0.05em" opacity={0.7} lineHeight="1">
+                            {item.label}
+                          </Text>
+                        )}
+                        <Text fontSize="14px" fontWeight="bold" lineHeight="1.2">
                           {item.subLabel}
                         </Text>
                       </VStack>
