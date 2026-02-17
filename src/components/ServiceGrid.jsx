@@ -29,7 +29,7 @@ const services = [
     subtitle: 'cercano',
     description: 'Te ayudamos a elegir el material y el sistema adecuado para cada proyecto, con asesoría en especificación, detalle y montaje.',
     buttonText: 'Ver más servicios',
-    image: '/plaza.jpg',
+    image: '/plaza-central/plaza_2.jpeg',
   },
   {
     title: 'Portafolio integral',
@@ -37,7 +37,7 @@ const services = [
     subtitle: 'proveedor',
     description: 'Desde cubiertas y fachadas hasta divisiones en HPL, puertas cortafuego y láminas para señalética, todo conectado en un mismo portafolio.',
     buttonText: 'Conocer productos',
-    image: '/santa fe.jpg',
+    image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop',
   }
 ]
 

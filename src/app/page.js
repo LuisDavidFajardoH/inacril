@@ -10,6 +10,7 @@ import { SolutionsSection } from "@/components/SolutionsSection"
 import { ProjectHighlight } from "@/components/ProjectHighlight"
 import { ProjectForm } from "@/components/ProjectForm"
 import { AlliesCarousel } from "@/components/AlliesCarousel"
+import { PlazaCentralSection } from "@/components/PlazaCentralSection"
 import { Footer } from "@/components/Footer"
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Autoplay, Pagination, EffectFade } from 'swiper/modules'
@@ -161,11 +162,20 @@ export default function Home() {
       {/* Allies Carousel Section */}
       <AlliesCarousel />
 
+      {/* Plaza Central Section */}
+      <PlazaCentralSection />
+
+      {/* Differentiator / Spacer */}
+      <Box h="2px" w="100%" bg="whiteAlpha.100" my={20} />
+
       {/* Project Form Section */}
       <ProjectForm />
 
       {/* Solutions Section */}
       <SolutionsSection />
+
+      {/* Plaza Central Section */}
+      {/* Moved above */}
 
       {/* Immersive Experience Section */}
       <Box position="relative" py={40} overflow="hidden">
