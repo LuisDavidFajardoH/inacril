@@ -13,7 +13,8 @@ import {
     Image,
     Grid,
     Badge,
-    Icon
+    Icon,
+    Circle
 } from '@chakra-ui/react'
 import { motion } from 'framer-motion'
 import {
@@ -223,7 +224,186 @@ export default function BanosIndustrialesHogar() {
                 </Container>
             </Box>
 
-            {/* 5. VALUES / CULTURE */}
+            {/* 5. SELECTOR - DEFINE TU PROYECTO (CUSTOM CSS / NO CARDS) */}
+            <div className="selector-section">
+                <div className="selector-container">
+                    <div className="selector-header">
+                        <div className="banos-intro-label">GUÍA DE ESPECIFICACIÓN</div>
+                        <h2 className="selector-title">Define tu Proyecto en 3 Pasos</h2>
+                        <p className="selector-subtitle">Encuentra la línea ideal de divisiones sanitarias en HPL</p>
+                    </div>
+
+                    <div className="selector-grid">
+                        {/* STEP 1: TRAFICO */}
+                        <div className="selector-step">
+                            <div className="step-header">
+                                <div className="step-number">1</div>
+                                <h3 className="step-question">¿Cuál es el nivel de tráfico del proyecto?</h3>
+                            </div>
+                            <div className="step-options">
+                                <div className="step-option">
+                                    <div className="option-header">
+                                        <span className="option-bullet">🔘</span>
+                                        <span className="option-label">Muy Alto Tráfico</span>
+                                    </div>
+                                    <div className="option-desc">(Aeropuertos, terminales, estadios, grandes superficies)</div>
+                                    <div className="option-info"><span className="arrow-icon">→</span> Requiere máxima estabilidad estructural.</div>
+                                    <div className="option-rec">
+                                        <CheckCircle size={16} /> Recomendación: Línea Plus
+                                    </div>
+                                </div>
+
+                                <div className="step-option">
+                                    <div className="option-header">
+                                        <span className="option-bullet">🔘</span>
+                                        <span className="option-label">Alto Tráfico</span>
+                                    </div>
+                                    <div className="option-desc">(Universidades, centros comerciales, clínicas, edificios corporativos)</div>
+                                    <div className="option-info"><span className="arrow-icon">→</span> Necesita equilibrio entre resistencia y diseño.</div>
+                                    <div className="option-rec">
+                                        <CheckCircle size={16} /> Recomendación: Línea Concept o Línea Esencial
+                                    </div>
+                                </div>
+
+                                <div className="step-option">
+                                    <div className="option-header">
+                                        <span className="option-bullet">🔘</span>
+                                        <span className="option-label">Medio – Alto</span>
+                                    </div>
+                                    <div className="option-desc">(Oficinas privadas, hoteles, clínicas especializadas)</div>
+                                    <div className="option-info"><span className="arrow-icon">→</span> Enfoque más estético con alto desempeño.</div>
+                                    <div className="option-rec">
+                                        <CheckCircle size={16} /> Recomendación: Línea Max o Línea Pro
+                                    </div>
+                                </div>
+
+                                <div className="step-option">
+                                    <div className="option-header">
+                                        <span className="option-bullet">🔘</span>
+                                        <span className="option-label">Espacios Infantiles</span>
+                                    </div>
+                                    <div className="option-desc">(Jardines, colegios, clínicas pediátricas)</div>
+                                    <div className="option-info"><span className="arrow-icon">→</span> Seguridad + diseño lúdico.</div>
+                                    <div className="option-rec">
+                                        <CheckCircle size={16} /> Recomendación: Línea Infantil
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* STEP 2: DISENO */}
+                        <div className="selector-step">
+                            <div className="step-header">
+                                <div className="step-number">2</div>
+                                <h3 className="step-question">¿Qué nivel de diseño requiere el espacio?</h3>
+                            </div>
+                            <div className="step-options">
+                                <div className="step-option">
+                                    <div className="option-header">
+                                        <span className="option-bullet">🔘</span>
+                                        <span className="option-label">Diseño funcional y eficiente</span>
+                                    </div>
+                                    <div className="option-rec">
+                                        <CheckCircle size={16} /> Recomendación: Línea Esencial
+                                    </div>
+                                </div>
+
+                                <div className="step-option">
+                                    <div className="option-header">
+                                        <span className="option-bullet">🔘</span>
+                                        <span className="option-label">Imagen moderna con estructura visible</span>
+                                    </div>
+                                    <div className="option-rec">
+                                        <CheckCircle size={16} /> Recomendación: Línea Concept
+                                    </div>
+                                </div>
+
+                                <div className="step-option">
+                                    <div className="option-header">
+                                        <span className="option-bullet">🔘</span>
+                                        <span className="option-label">Estética limpia y minimalista</span>
+                                    </div>
+                                    <div className="option-desc">(sin tubular superior)</div>
+                                    <div className="option-rec">
+                                        <CheckCircle size={16} /> Recomendación: Línea Max o Pro
+                                    </div>
+                                </div>
+
+                                <div className="step-option">
+                                    <div className="option-header">
+                                        <span className="option-bullet">🔘</span>
+                                        <span className="option-label">Diseño robusto y dominante</span>
+                                    </div>
+                                    <div className="option-rec">
+                                        <CheckCircle size={16} /> Recomendación: Línea Plus
+                                    </div>
+                                </div>
+
+                                <div className="step-option">
+                                    <div className="option-header">
+                                        <span className="option-bullet">🔘</span>
+                                        <span className="option-label">Diseño creativo y personalizado</span>
+                                    </div>
+                                    <div className="option-rec">
+                                        <CheckCircle size={16} /> Recomendación: Línea Infantil
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* STEP 3: PRIORIDAD */}
+                        <div className="selector-step">
+                            <div className="step-header">
+                                <div className="step-number">3</div>
+                                <h3 className="step-question">¿Qué prioridad tiene el proyecto?</h3>
+                            </div>
+                            <div className="step-options">
+                                <div className="step-option">
+                                    <div className="option-header">
+                                        <span className="option-bullet">🔘</span>
+                                        <span className="option-label">Optimización de presupuesto</span>
+                                    </div>
+                                    <div className="option-info"><span className="arrow-icon">→</span> Esencial</div>
+                                </div>
+
+                                <div className="step-option">
+                                    <div className="option-header">
+                                        <span className="option-bullet">🔘</span>
+                                        <span className="option-label">Balance costo – desempeño – estabilidad</span>
+                                    </div>
+                                    <div className="option-info"><span className="arrow-icon">→</span> Concept</div>
+                                </div>
+
+                                <div className="step-option">
+                                    <div className="option-header">
+                                        <span className="option-bullet">🔘</span>
+                                        <span className="option-label">Imagen arquitectónica diferenciadora</span>
+                                    </div>
+                                    <div className="option-info"><span className="arrow-icon">→</span> Max o Pro</div>
+                                </div>
+
+                                <div className="step-option">
+                                    <div className="option-header">
+                                        <span className="option-bullet">🔘</span>
+                                        <span className="option-label">Máxima durabilidad a largo plazo</span>
+                                    </div>
+                                    <div className="option-info"><span className="arrow-icon">→</span> Plus</div>
+                                </div>
+
+                                <div className="step-option">
+                                    <div className="option-header">
+                                        <span className="option-bullet">🔘</span>
+                                        <span className="option-label">Experiencia del usuario infantil</span>
+                                    </div>
+                                    <div className="option-info"><span className="arrow-icon">→</span> Infantil</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            {/* 6. VALUES / CULTURE */}
             <Box bg="#0a1021" py={{ base: 20, md: 24 }} color="white">
                 <Container maxW="8xl" px={8}>
                     <Grid templateColumns={{ base: "1fr", lg: "1fr 2fr" }} gap={16}>

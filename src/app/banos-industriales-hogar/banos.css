@@ -250,3 +250,136 @@
     font-size: 1.875rem;
   }
 }
+
+/* --- Project Selector Section (Custom CSS) --- */
+.selector-section {
+    background-color: #f8fafc;
+    padding: 6rem 0;
+}
+
+.selector-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.selector-header {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.selector-title {
+    font-size: 3rem;
+    color: #1a202c;
+    font-weight: 800;
+    margin-bottom: 1rem;
+    letter-spacing: -0.03em;
+}
+
+.selector-subtitle {
+    font-size: 1.25rem;
+    color: #718096;
+}
+
+.selector-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Force 3 columns */
+    gap: 4rem; /* Big spacing */
+}
+
+@media (max-width: 1024px) {
+    .selector-grid {
+        grid-template-columns: 1fr; /* Stack on mobile */
+        gap: 4rem;
+    }
+}
+
+.selector-step {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.step-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.step-number {
+    font-size: 4rem;
+    font-weight: 900;
+    color: #e2e8f0;
+    line-height: 1;
+}
+
+.step-question {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #2d3748;
+    line-height: 1.2;
+}
+
+.step-options {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.step-option {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.option-header {
+    display: flex;
+    align-items: baseline;
+    gap: 0.75rem;
+}
+
+.option-bullet {
+    font-size: 1.2rem;
+    color: #3182ce; /* Blue bullet */
+}
+
+.option-label {
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: #2d3748;
+}
+
+.option-desc {
+    font-size: 0.95rem;
+    color: #718096;
+    margin-left: 2rem; /* Indent under label */
+    font-style: italic;
+}
+
+.option-info {
+    font-size: 0.9rem;
+    color: #4a5568;
+    margin-left: 2rem;
+    font-weight: 500;
+    margin-top: 0.25rem;
+}
+
+.option-rec {
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+    font-weight: 800;
+    color: #38a169; /* Green recommendation */
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.arrow-icon {
+    color: #3182ce;
+}
