@@ -1,0 +1,225 @@
+/* Puertas CF - Custom Styles (Based on Banos Styles) */
+
+/* Intro Banner Section */
+.cf-intro-banner {
+  position: relative;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin-top: 100px; /* Navbar height */
+}
+
+.cf-intro-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(15, 23, 42, 0.75); /* Darker blue/slate overlay */
+  z-index: 1;
+}
+
+.cf-intro-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.cf-intro-content {
+  position: relative;
+  z-index: 2;
+  max-width: 1200px;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.cf-intro-label {
+  color: #06b6d4; /* Cyan-500 */
+  font-size: 0.75rem;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+.cf-intro-title {
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+}
+
+.cf-intro-title .highlight {
+  color: #06b6d4;
+}
+
+.cf-intro-description {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1.25rem;
+  line-height: 1.75;
+  max-width: 900px;
+  margin: 0 auto 2rem;
+}
+
+.cf-intro-features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.cf-intro-feature {
+  text-align: center;
+}
+
+.cf-intro-feature-icon {
+  width: 60px;
+  height: 60px;
+  background: rgba(6, 182, 212, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1rem;
+  color: #06b6d4;
+}
+
+.cf-intro-feature-title {
+  color: white;
+  font-size: 1.125rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.cf-intro-feature-text {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.9375rem;
+  line-height: 1.6;
+}
+
+/* Three Pillars / How Section */
+.cf-how-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin-top: 4rem;
+}
+
+.cf-how-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-top: 4px solid #06b6d4; /* Cyan border */
+}
+
+.cf-how-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+/* CTA Section */
+.cf-cta {
+  position: relative;
+  padding: 8rem 0;
+  overflow: hidden;
+  background-color: #0f172a;
+}
+
+.cf-cta-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(15, 23, 42, 0.9);
+  z-index: 1;
+}
+
+.cf-cta-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.cf-cta-content {
+  position: relative;
+  z-index: 2;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  text-align: center;
+}
+
+.cf-cta-title {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 1.4;
+  margin-bottom: 2rem;
+}
+
+.cf-cta-title .highlight {
+  color: #06b6d4;
+}
+
+.cf-cta-text {
+  color: white;
+  font-size: 1.125rem;
+  line-height: 1.75;
+  opacity: 0.95;
+  margin-bottom: 2.5rem;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cf-cta-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: #06b6d4;
+  color: white;
+  padding: 1rem 2.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.cf-cta-button:hover {
+  background-color: #0891b2;
+  transform: translateY(-3px);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .cf-intro-banner {
+    min-height: 75vh;
+  }
+  .cf-intro-title {
+    font-size: 2rem;
+  }
+  .cf-intro-description {
+    font-size: 1rem;
+  }
+  .cf-intro-features {
+    grid-template-columns: 1fr;
+  }
+}

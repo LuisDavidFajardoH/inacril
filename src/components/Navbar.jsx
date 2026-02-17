@@ -14,12 +14,18 @@ const banosSubmenus = [
   { label: 'Línea Pro', href: '/banos/linea-pro' },
 ]
 
+const puertasSubmenus = [
+  { label: 'PUERTAS CF', href: '/puertas-mobiliario/puertas-cf' },
+  { label: 'PUERTAS PANEL FENOLICO', href: '/puertas-mobiliario/puertas-panel-fenolico' },
+  { label: 'SHUTS CF', href: '/puertas-mobiliario/shuts-cf' },
+]
+
 const navItems = [
   { subLabel: 'PUBLICIDAD', color: '#9F7AEA', href: '/acrilicos' },
   { subLabel: 'IMAGEN CORPORATIVA', color: '#718096', href: '/imagen-corporativa' },
   { label: 'FACHADAS Y', subLabel: 'EXTERIORES', color: '#4299E1', href: '/fachadas-exteriores' },
   { label: 'BAÑOS', subLabel: 'INDUSTRIALES Y HOGAR', color: '#48BB78', href: '/banos-industriales-hogar', submenus: banosSubmenus },
-  { subLabel: 'PUERTAS TECNICAS', color: '#A0AEC0', href: '/puertas-mobiliario' },
+  { subLabel: 'PUERTAS TECNICAS', color: '#A0AEC0', href: '/puertas-mobiliario', submenus: puertasSubmenus },
   { subLabel: 'CUBIERTAS', color: '#667EEA', href: '/cubiertas' },
 ]
 

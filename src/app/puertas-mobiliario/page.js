@@ -91,10 +91,12 @@ export default function PuertasMobiliario() {
                                 NUESTRO PROPÓSITO
                             </Text>
                             <Heading color="gray.900" fontSize={{ base: "4xl", md: "5xl" }} lineHeight="1.2">
-                                Una puerta no solo divide espacios, <Text as="span" color="cyan.600">protege vidas</Text>
+                                En INACRIL creemos que una puerta no solo divide espacios, <Text as="span" color="cyan.600">protege vidas</Text>
                             </Heading>
                             <Text color="gray.600" fontSize="lg" lineHeight="relaxed">
-                                En INACRIL creemos que cada puerta debe ser una solución inteligente que respalde la reputación del proyecto y cuide a las personas que lo habitan. Vamos más allá del cumplimiento normativo para entregar seguridad real, bienestar y confianza.
+                                Existimos para brindar seguridad real, bienestar y confianza en cada edificación, ayudando a constructores, arquitectos y usuarios finales a tomar decisiones que impactan positivamente la seguridad, la experiencia y el valor del inmueble.
+                                <br /><br />
+                                Nuestro propósito es ir más allá del cumplimiento normativo: queremos que cada puerta sea una solución inteligente que respalde la reputación del proyecto y cuide a las personas que lo habitan. Diseñar y suministrar soluciones especializadas en puertas de alto desempeño que protejan vidas, mejoren la experiencia de los espacios y eleven el valor de los proyectos, acompañando a nuestros clientes con conocimiento técnico, calidad certificada y ejecución confiable.
                             </Text>
 
                             <VStack align="flex-start" gap={4} w="100%" mt={4}>
@@ -159,15 +161,23 @@ export default function PuertasMobiliario() {
                             features={[
                                 "Certificación americana UL y europea UNE",
                                 "Resistencias al fuego de 60, 90 y 120 minutos",
-                                "Sistema reversible para ambas aperturas",
+                                "Sistema reversible (una sola hoja sirve para apertura derecha o izquierda)",
                                 "Medio cerrojo integrado",
-                                "Compatibles con herrajes de alta gama"
+                                "Compatibles con herrajes y accesorios de alta gama",
+                                "Fabricadas bajo estándares internacionales de seguridad"
+                            ]}
+                            advantages={[
+                                "Doble certificación internacional = máxima aceptación en licitaciones y proyectos exigentes",
+                                "La reversibilidad reduce errores en obra y optimiza inventarios",
+                                "Mayor tiempo de resistencia = diferencial real frente a puertas estándar del mercado",
+                                "Medio cerrojo aporta seguridad adicional sin sobrecostos complejos",
+                                "Facilitan la aprobación por interventorías y cuerpos de bomberos"
                             ]}
                             quickWins={[
-                                "Aprobación más rápida de especificaciones",
-                                "Menos reprocesos por errores de apertura",
-                                "120 minutos certificados = más protección",
-                                "Reducción de riesgos legales inmediata"
+                                "Aprobación más rápida de especificaciones técnicas",
+                                "Menos reprocesos en obra por errores de apertura",
+                                "Argumento inmediato de venta: “120 minutos certificados = más protección y mayor valor del proyecto”",
+                                "Reducción de riesgos legales desde el primer día de instalación"
                             ]}
                             color="orange"
                         />
@@ -267,7 +277,7 @@ const ValueItem = ({ icon: Icon, title, description }) => (
     </HStack>
 )
 
-const ProductCard = ({ icon: Icon, title, subtitle, image, features, quickWins, color, comingSoon }) => {
+const ProductCard = ({ icon: Icon, title, subtitle, image, features, advantages, quickWins, color, comingSoon }) => {
     const colorScheme = {
         orange: { bg: 'orange.50', icon: 'orange.600', accent: 'orange.500', badge: 'orange.500' },
         green: { bg: 'green.50', icon: 'green.600', accent: 'green.500', badge: 'green.500' },
@@ -346,7 +356,7 @@ const ProductCard = ({ icon: Icon, title, subtitle, image, features, quickWins, 
                     <Text color={colorScheme.accent} fontSize="md" fontWeight="bold">{subtitle}</Text>
                 </VStack>
 
-                <SimpleGrid columns={{ base: 1, md: 2 }} gap={8} w="100%">
+                <SimpleGrid columns={{ base: 1, md: advantages ? 3 : 2 }} gap={8} w="100%">
                     <VStack align="flex-start" gap={3}>
                         <Text color="gray.500" fontSize="xs" fontWeight="bold" letterSpacing="wider" textTransform="uppercase">
                             Características
@@ -358,6 +368,20 @@ const ProductCard = ({ icon: Icon, title, subtitle, image, features, quickWins, 
                             </HStack>
                         ))}
                     </VStack>
+
+                    {advantages && (
+                        <VStack align="flex-start" gap={3}>
+                            <Text color="cyan.600" fontSize="xs" fontWeight="bold" letterSpacing="wider" textTransform="uppercase">
+                                Ventajas
+                            </Text>
+                            {advantages.map((advantage, i) => (
+                                <HStack key={i} gap={2} align="flex-start">
+                                    <Award size={16} color={colorScheme.icon} style={{ marginTop: '2px', flexShrink: 0 }} />
+                                    <Text color="gray.700" fontSize="sm">{advantage}</Text>
+                                </HStack>
+                            ))}
+                        </VStack>
+                    )}
 
                     <VStack align="flex-start" gap={3}>
                         <Text color={colorScheme.accent} fontSize="xs" fontWeight="bold" letterSpacing="wider" textTransform="uppercase">
