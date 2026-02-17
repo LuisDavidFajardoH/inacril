@@ -27,7 +27,16 @@ export const PlazaCentralSection = () => {
             muted
             loop
             playsInline
-            style={{ width: '100%', height: '100%', objectFit: 'cover', filter: 'brightness(0.3)' }}
+            style={{ width: '100%', height: '100%', objectFit: 'cover', filter: 'brightness(0.7)' }}
+         />
+         {/* Gradient Overlay for Text Readability */}
+         <Box
+            position="absolute"
+            top="0"
+            left="0"
+            w="100%"
+            h="100%"
+            bg="linear-gradient(90deg, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.5) 40%, rgba(0,0,0,0.1) 100%)"
          />
       </Box>
 
@@ -35,14 +44,10 @@ export const PlazaCentralSection = () => {
       <Container maxW="8xl" h="100%" position="relative" zIndex="1" px={8}>
         <Flex h="100%" direction={{ base: "column", lg: "row" }} align="center" gap={{ base: 12, lg: 24 }}>
             {/* Text Content */}
-            <MotionVStack 
+            <VStack 
                 flex={1} 
                 align="flex-start" 
                 gap={8}
-                initial={{ opacity: 0, x: -50 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.8 }}
             >
                 <Box>
                     <Text color="orange.400" fontWeight="bold" letterSpacing="widest" mb={4} fontSize="sm">
@@ -55,7 +60,7 @@ export const PlazaCentralSection = () => {
                 <Text color="whiteAlpha.800" fontSize={{ base: "lg", md: "2xl" }} maxW="lg" lineHeight="1.4">
                     Donde la arquitectura cobra vida. Una demostración de nuestra capacidad para fusionar diseño, seguridad y funcionalidad en espacios de alto tráfico.
                 </Text>
-            </MotionVStack>
+            </VStack>
 
             {/* Images Grid */}
             <Box flex={1.2} w="100%">

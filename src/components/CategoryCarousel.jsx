@@ -28,7 +28,7 @@ const categories = [
   },
   {
     title: 'Baños Industriales y Hogar',
-    image: 'https://images.unsplash.com/photo-1584622050111-993a426fbf0a?q=80&w=2069&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?q=80&w=2000&auto=format&fit=crop',
     color: 'rgba(35, 78, 64, 0.8)' // Sage Green
   },
   {
