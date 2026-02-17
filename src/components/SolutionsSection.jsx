@@ -27,14 +27,14 @@ const sectors = [
     subtitle: 'y Comercio',
     icon: Store,
     color: 'rgba(26, 32, 44, 0.8)',
-    image: '/santa fe.jpg'
+    image: '/pro/BAZAAR1.jpg'
   },
   {
     title: 'Publicidad y Visual',
     subtitle: 'Merchandising',
     icon: Megaphone,
     color: 'rgba(72, 52, 117, 0.8)',
-    image: '/plaza.jpg'
+    image: '/MULTIPLAZA-1-1.webp'
   }
 ]
 

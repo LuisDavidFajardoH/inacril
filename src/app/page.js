@@ -38,6 +38,15 @@ const slides = [
     buttonText: 'Cuéntanos tu Proyecto',
     align: 'flex-end',
     textAlign: 'right'
+  },
+  {
+    image: '/baños/baños cc jardin plaza cucuta 3.jpg',
+    title: 'Expertos en',
+    subtitle: 'Espacios de Alto Tráfico',
+    description: 'Desde centros comerciales hasta instituciones educativas, garantizamos durabilidad y diseño.',
+    buttonText: 'Ver Proyectos',
+    align: 'center',
+    textAlign: 'center'
   }
 ]
 
@@ -75,7 +84,7 @@ export default function Home() {
                 <Container maxW="8xl" h="100%" position="absolute" top="0" left="0" right="0" zIndex="1" px={8}>
                   <Flex h="100%" align="center" justify={slide.align || "flex-start"}>
                     <MotionVStack
-                      align={slide.align === 'flex-end' ? 'flex-end' : 'flex-start'}
+                      align={slide.align || 'flex-start'}
                       textAlign={slide.textAlign || 'left'}
                       gap={10}
                       maxW="3xl"
@@ -83,7 +92,7 @@ export default function Home() {
                       whileInView={{ opacity: 1, x: 0 }}
                       transition={{ duration: 0.8, ease: "easeOut" }}
                     >
-                      <VStack align={slide.align === 'flex-end' ? 'flex-end' : 'flex-start'} gap={4}>
+                      <VStack align={slide.align || 'flex-start'} gap={4}>
                         <Heading
                           as="h1"
                           color="white"
@@ -226,10 +235,10 @@ export default function Home() {
             <Box flex="1" w="100%">
               <SimpleGrid columns={2} spacing={4}>
                 <Box height="300px" overflow="hidden">
-                  <Image src="/plaza.jpg" alt="Detail 1" objectFit="cover" w="100%" h="100%" filter="brightness(0.7)" transition="transform 0.6s" _hover={{ transform: 'scale(1.1)' }} />
+                  <Image src="/baños/CC CUCUTA2.jpg" alt="Detail 1" objectFit="cover" w="100%" h="100%" filter="brightness(0.7)" transition="transform 0.6s" _hover={{ transform: 'scale(1.1)' }} />
                 </Box>
                 <Box height="300px" overflow="hidden" mt={8}>
-                  <Image src="/santa fe.jpg" alt="Detail 2" objectFit="cover" w="100%" h="100%" filter="brightness(0.7)" transition="transform 0.6s" _hover={{ transform: 'scale(1.1)' }} />
+                  <Image src="/divisiones de baño.png" alt="Detail 2" objectFit="cover" w="100%" h="100%" filter="brightness(0.7)" transition="transform 0.6s" _hover={{ transform: 'scale(1.1)' }} />
                 </Box>
               </SimpleGrid>
             </Box>

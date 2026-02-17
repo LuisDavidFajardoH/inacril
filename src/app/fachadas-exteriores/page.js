@@ -31,7 +31,7 @@ export default function FachadasExteriores() {
             <div className="fachadas-intro-banner">
                 <div className="fachadas-intro-overlay"></div>
                 <img
-                    src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1600&q=80"
+                    src="/fachadas/habitat store bta 7.JPG"
                     alt="Fachadas y Exteriores"
                     className="fachadas-intro-bg"
                 />
@@ -123,7 +123,7 @@ export default function FachadasExteriores() {
                             boxShadow="2xl"
                         >
                             <Image
-                                src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800&q=80"
+                                src="/fachadas/IMG-20130926-WA005.jpg"
                                 alt="Modern facade"
                                 objectFit="cover"
                                 w="100%"
@@ -155,7 +155,7 @@ export default function FachadasExteriores() {
                             icon={Layers}
                             title="Fachadas en HPL – Sistema de Fachada Ventilada"
                             subtitle="Alta eficiencia térmica y estética superior"
-                            image="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80"
+                            image="/fachadas/WhatsApp Image 2020-06-26 at 3.51.26 PM.jpeg"
                             features={[
                                 "Sistema de fachada ventilada con paneles fenólicos HPL",
                                 "Cámara de aire que permite circulación natural",
@@ -184,7 +184,7 @@ export default function FachadasExteriores() {
                             icon={Building2}
                             title="Fachadas en Aluminio Compuesto (ACM)"
                             subtitle="Rapidez y precisión estética"
-                            image="https://images.unsplash.com/photo-1511818966892-d7d671e672a2?w=800&q=80"
+                            image="/fachadas/habitat store bta FUNMAX1.JPG"
                             features={[
                                 "Paneles de aluminio compuesto arquitectónicos",
                                 "Superficie lisa con acabados metálicos o sólidos",
@@ -210,7 +210,7 @@ export default function FachadasExteriores() {
                             icon={Sun}
                             title="Fachadas en Policarbonato"
                             subtitle="Iluminación natural y resistencia"
-                            image="https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=800&q=80"
+                            image="/fachadas/embajad de ecuador 2.jpg"
                             features={[
                                 "Paneles de policarbonato alveolar o macizo",
                                 "Alta transmisión de luz con protección UV",
@@ -236,7 +236,7 @@ export default function FachadasExteriores() {
                             icon={Lightbulb}
                             title="Fachadas con Iluminación Arquitectónica"
                             subtitle="Impacto visual nocturno"
-                            image="https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?w=800&q=80"
+                            image="/fachadas/habitat store bta 7.JPG"
                             features={[
                                 "Integración de sistemas LED en fachadas",
                                 "Iluminación funcional, decorativa o corporativa",
@@ -262,7 +262,7 @@ export default function FachadasExteriores() {
                             icon={Armchair}
                             title="Mobiliario Urbano en HPL"
                             subtitle="Espacios exteriores que invitan a disfrutar"
-                            image="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80"
+                            image="/fachadas/ChatGPT Image 18 jun 2025, 09_13_40 a.m..png"
                             features={[
                                 "Bancas, mesas y elementos de descanso en HPL",
                                 "Alta resistencia a intemperie y vandalismo",
@@ -290,7 +290,7 @@ export default function FachadasExteriores() {
             <div className="fachadas-cta">
                 <div className="fachadas-cta-overlay"></div>
                 <img
-                    src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600&q=80"
+                    src="/fachadas/habitat store bta FUNMAX1.JPG"
                     alt="Modern facade"
                     className="fachadas-cta-bg"
                 />

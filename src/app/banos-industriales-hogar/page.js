@@ -46,7 +46,7 @@ export default function BanosIndustrialesHogar() {
             <div className="banos-intro-banner">
                 <div className="banos-intro-overlay"></div>
                 <img
-                    src="https://images.unsplash.com/photo-1620626011761-996317b8d101?w=1600&q=80"
+                    src="/baños/baños cc jardin plaza cucuta 3.jpg"
                     alt="Baños Industriales y Hogar"
                     className="banos-intro-bg"
                 />
@@ -114,7 +114,7 @@ export default function BanosIndustrialesHogar() {
                             boxShadow="2xl"
                         >
                             <Image
-                                src="https://images.unsplash.com/photo-1600607686527-6fb886090705?w=800&q=80"
+                                src="/baños/CC CUCUTA2.jpg"
                                 alt="Philosophy"
                                 objectFit="cover"
                                 w="100%"
@@ -181,7 +181,7 @@ export default function BanosIndustrialesHogar() {
                             title="Unidad de Baños HPL"
                             subtitle="Revestimientos, lobbies, lockers y mobiliario de alto tráfico"
                             description="La solución definitiva para proyectos que no pueden fallar. Espacios de alto tráfico donde la durabilidad, seguridad y estética deben mantenerse intactas."
-                            image="https://images.unsplash.com/photo-1631679706909-1844bbd07221?w=800&q=80"
+                            image="/baños/concept-cubiculos.png"
                             features={[
                                 "Paneles HPL de alta resistencia a la humedad e impactos",
                                 "Ideal para proyectos institucionales y hoteleros",
@@ -204,7 +204,7 @@ export default function BanosIndustrialesHogar() {
                             title="Línea Hogar en Acrílico"
                             subtitle="Lavamanos, tinas, bañeras y lavaderos High-Gloss"
                             description="Libertad de diseño total. Acrílico de alto brillo con refuerzo en fibra de vidrio que se adapta a tu espacio, ofreciendo limpieza visual y suavidad al tacto."
-                            image="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=800&q=80"
+                            image="/LÍNEA HOGAR.png"
                             features={[
                                 "Acrílico alto brillo con refuerzo estructural",
                                 "Superficie lisa, no porosa y fácil de limpiar",
@@ -219,6 +219,7 @@ export default function BanosIndustrialesHogar() {
                             ]}
                             color="orange" // Changed to distinguish residential warmth
                             align="right"
+                            objectFit="contain"
                         />
                     </VStack>
                 </Container>
@@ -433,7 +434,7 @@ export default function BanosIndustrialesHogar() {
             <div className="banos-cta">
                 <div className="banos-cta-overlay"></div>
                 <img
-                    src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=1600&q=80"
+                    src="/baños/f2cc75a7-5543-4bf6-adc1-4d5e113ce957.jpg"
                     alt="Luxury Bathroom"
                     className="banos-cta-bg"
                 />
@@ -493,7 +494,7 @@ const ValueCard = ({ title, text, icon: Icon }) => (
     </HStack>
 )
 
-const ProductSection = ({ title, subtitle, description, image, features, quickWins, color, align, category }) => {
+const ProductSection = ({ title, subtitle, description, image, features, quickWins, color, align, category, objectFit = 'cover' }) => {
     const isRight = align === 'right';
     const colorScheme = {
         blue: { icon: 'blue.600', bg: 'blue.50' },
@@ -513,8 +514,9 @@ const ProductSection = ({ title, subtitle, description, image, features, quickWi
                     overflow="hidden"
                     boxShadow="2xl"
                     position="relative"
+                    bg="white"
                 >
-                    <Image src={image} alt={title} objectFit="cover" w="100%" h="100%" />
+                    <Image src={image} alt={title} objectFit={objectFit} w="100%" h="100%" />
                     {/* Badge Overlay */}
                     <Box
                         position="absolute"
